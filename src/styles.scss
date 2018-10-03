@@ -1,5 +1,39 @@
-$bgblue: #fff;
+.nopadding{
+    padding: 0;
+}
 
-body{
-    background: $bgblue; 
-} 
+.supercont__asus{ 
+    min-height: 1000px;
+    .cont__slide1{
+        position: relative;
+        img.bg_slide1{
+            width: 100%;
+            width: 100%;
+            position: absolute;
+        }
+        .vivoBook{
+            border: dotted 1px orange;
+            text-align: center;
+            .left{
+                border: dotted 1px purple;
+            }
+
+            .right{
+                border: dotted 1px purple;
+                .logo_asus{
+                    width: 100%;
+                    height: 55px;
+                    margin-top: 20px;
+                    padding-right: 25px;
+                    img{
+                        float: right;
+                    }
+                }
+
+                .label{
+                    padding-top: 40px;
+                }
+            }
+        }
+    }
+}

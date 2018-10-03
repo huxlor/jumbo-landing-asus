@@ -9,11 +9,21 @@ module.exports = {
     },
     module: {
         rules: [{
-            test: /\.scss$/,
+            test: /\.(scss|css)$/,
             use: [
                 MiniCssExtractPlugin.loader, // creates style nodes from JS strings
                 "css-loader", // translates CSS into CommonJS
                 "sass-loader" // compiles Sass to CSS, using Node Sass by default
+            ]
+        },{
+            test: /\.(jpg|png|svg)$/,
+            use: [
+                {
+                    loader: 'url-loader',
+                    options: {
+                        limit: 2000000
+                    }
+                }
             ]
         }]
     },
