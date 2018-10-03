@@ -1,3 +1,45 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Regular.woff') format('woff'),
+        url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+        url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;   
+}
+
+@font-face {
+    font-family: 'Myriad Pro Light'; 
+    src: url('../fonts/MyriadPro-Light.eot');
+    src: url('../fonts/MyriadPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MyriadPro-Light.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Light.woff') format('woff'),
+        url('../fonts/MyriadPro-Light.ttf') format('truetype'),
+        url('../fonts/MyriadPro-Light.svg#MyriadPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;  
+}
+
+@font-face {
+    font-family: 'Myriad Pro Bold';
+    src: url('../fonts/MyriadPro-Semibold.eot');
+    src: url('../fonts/MyriadPro-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MyriadPro-Semibold.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Semibold.woff') format('woff'),
+        url('../fonts/MyriadPro-Semibold.ttf') format('truetype'),
+        url('../fonts/MyriadPro-Semibold.svg#MyriadPro-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+$myriad: 'Myriad Pro';
+$myriad-l: 'Myriad Pro Light';
+$myriad-b: 'Myriad Pro Bold'; 
+$white: #fff;
+
+
 .nopadding{
     padding: 0;
 }
@@ -6,20 +48,18 @@
     min-height: 1000px;
     .cont__slide1{
         position: relative;
+        background-image: url('../images/slide1-bg-asus.jpg');
         img.bg_slide1{
-            width: 100%;
             width: 100%;
             position: absolute;
         }
         .vivoBook{
-            border: dotted 1px orange;
             text-align: center;
-            .left{
-                border: dotted 1px purple;
-            }
+            padding-bottom: 250px;
+            // .left{}
 
             .right{
-                border: dotted 1px purple;
+                position: relative;
                 .logo_asus{
                     width: 100%;
                     height: 55px;
@@ -32,6 +72,164 @@
 
                 .label{
                     padding-top: 40px;
+                    .procesadores{
+                        font-family: $myriad-b;
+                        color: $white;
+                        font-size: 20px;
+                    }
+
+                    a{
+                        width: 290px;
+                        padding: 15px 0;
+                        border: solid 4px $white;
+                        border-radius: 20px;
+                        font-family: $myriad-b;
+                        font-size: 32px;
+                        color: $white;
+                        margin: 35px auto 0;
+                    }
+
+                    & > img{
+                        width: 95%;
+                        display: block;
+                        margin: 0 auto;
+                    }
+                }
+
+                .intel-logo{
+                    position: absolute;
+                    right: 0px;
+                    bottom: -60px;
+                    padding-right: 25px;
+                }
+
+                .fix-height{
+                    height: 230px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .cont__slide2{
+        position: relative;
+        background-image: url('../images/slide2-bg-asus.jpg');
+        .selfie-pro{
+            .left{
+                padding: 65px 0 0;
+                .cont_title{
+                    img{
+                        display: block;
+                        margin: 0 auto;
+                    }
+
+                    .selfie-pro-img{
+                        max-width: 600px;
+                    }
+
+                    .four-cameras-img{
+                        margin-top: 35px;
+                        max-width: 550px;
+                    }
+                }
+
+                .cont_characteristics{
+                    margin-top: 85px;
+                    .minicont_caract{
+                        display: inline-block;
+                        width: 100%;
+                        padding-left: 12%;
+                        margin-bottom: 45px;
+                        div{
+                            display: inline-block;
+                        }
+
+                        p{
+                            font-family: $myriad;
+                            font-size: 32px;
+                            padding-left: 15px;
+                        }
+
+                        .icons{
+                            width: 130px;
+                            img{
+                                display: block;
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .right{
+                position: relative;
+                padding-right: 25px;
+                padding-top: 50px;
+                img{
+                    float: right;
+                }
+            }
+
+            a{
+                width: 290px;
+                text-align: center;
+                padding: 15px 0;
+                border: solid 4px #000;
+                border-radius: 20px;
+                font-family: $myriad-b;
+                font-size: 32px;
+                color: #000;
+                margin: 0 auto 35px;
+            }
+        }
+    }
+
+    .cont__slide3{
+        .promotion{
+            .left{
+                padding-left: 35px;
+                padding-top: 70px;
+                h3{
+                    font-family: $myriad-b;
+                    font-size: 30px;
+                    margin-bottom: 5px;
+                }
+
+                ul{
+                    padding-left: 35px;
+                    h4{
+                        font-size: 26px;
+                        font-family: $myriad;
+                        margin-bottom: 5px;
+                    }
+
+                    li{
+                        padding-left: 30px;
+                        font-size: 22px; 
+                        font-family: $myriad;
+                        p{
+                            padding-left: 25px;
+                            font-size: 18px;
+                        }
+                    }
+                }
+
+                ul:last-child{
+                    margin-top: 60px;
+                }
+            }
+
+            .right{
+                & > div{
+                    margin-top: 50px;
+                    width: 100%;
+                    background-color: #343434;
+                    h3{
+                        color: $white;
+                        text-align: center;
+                        font-family: $myriad-b;
+                        font-size: 30px;
+                    }
                 }
             }
         }
