@@ -49,6 +49,8 @@ $white: #fff;
     .cont__slide1{
         position: relative;
         background-image: url('../images/slide1-bg-asus.jpg');
+        background-repeat: no-repeat;
+        background-size: auto 100%;
         img.bg_slide1{
             width: 100%;
             position: absolute;
@@ -109,11 +111,18 @@ $white: #fff;
                 }
             }
         }
+
+        @media screen and (min-width: 1800px) {
+            background-image: url('../images/slide1-bg-asus.jpg');
+            background-size: 100% auto;
+        }
     }
 
     .cont__slide2{
         position: relative;
         background-image: url('../images/slide2-bg-asus.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
         .selfie-pro{
             .left{
                 padding: 65px 0 0;
@@ -167,6 +176,9 @@ $white: #fff;
                 padding-top: 50px;
                 img{
                     float: right;
+                    @media (max-width: 400px) {
+                        display: none;
+                    }
                 }
             }
 
@@ -192,7 +204,7 @@ $white: #fff;
                 h3{
                     font-family: $myriad-b;
                     font-size: 30px;
-                    margin-bottom: 5px;
+                    margin-bottom: 5px; 
                 }
 
                 ul{
@@ -220,18 +232,214 @@ $white: #fff;
             }
 
             .right{
-                & > div{
+                .cont-title{
                     margin-top: 50px;
                     width: 100%;
+                    margin-bottom: 15px;
                     background-color: #343434;
                     h3{
                         color: $white;
                         text-align: center;
                         font-family: $myriad-b;
-                        font-size: 30px;
+                        font-size: 30px; 
+                    }
+                }
+
+                .promo-left{
+                    padding-right: 5px;
+                    @media (max-width: 450px) {
+                        padding-right: 0px;
+                    }
+                    div{
+                        margin-bottom: 10px;    
+                        img{
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+
+                .promo-right{
+                    padding-left: 5px;
+                    @media (max-width: 450px) {
+                        padding-left: 0px;
+                    }
+                    img{
+                        width: 100%;
+                        height: auto;
                     }
                 }
             }
+        }
+    }
+
+    .cont__slide4{
+        .promotion-row{
+            .cont-title{
+                margin-top: 20px;
+                width: 100%;
+                background-color: #343434;
+                h3{
+                    color: $white;
+                    text-align: center;
+                    font-family: $myriad-b;
+                    font-size: 30px;  
+                }
+            }
+
+            .supercont_products{
+                background-color: #f2f2f2;
+                .cont_products{
+                    padding: 30px 15px;
+                    .product{ 
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                        div{
+                            min-height: 350px;
+                            background-color: #fff;
+                            text-align: center;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .wrapper, .center{
+        min-width: initial !important;
+    }
+
+    .row{
+        margin: 0;
+    }
+
+    .container{
+        width: 100% !important;
+    }
+
+    .supercont__asus {
+        .cont__slide1 {
+            background-image: url('../images/slide1-bg-asus-mobile.png');
+            background-size: cover;
+            .vivoBook {
+                padding:  0;height: 550px;
+                .right {
+                    .logo_asus {
+                        img {
+                            width:  150px;
+                            height:  auto;
+                            filter: brightness(0%);
+                            -webkit-filter: brightness(0%);
+                            -moz-filter: brightness(0%);
+                        }
+                    }
+
+                    .label {
+                        padding-top: 320px;
+                        img {
+                            width: 290px;
+                        }
+
+                        .procesadores {
+                            font-size:  16px;
+                        }
+
+                        a{
+                            width:  160px;
+                            font-size:  22px;
+                            border: solid 2px;
+                            margin-top: 10px;
+                            padding: 10px 0;
+                            border-radius: 12px;
+                        }
+                    } 
+
+                    .intel-logo {
+                        width: 120px; 
+                        top: 45%;
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .cont__slide2 {
+            background-size:  auto 100%;
+            .selfie-pro {
+                position:  relative;
+                .left {
+                    padding: 18px 0 0;
+                    .cont_title {
+                        padding-left: 40px;
+                        .selfie-pro-img {
+                            max-width:  200px;
+                            margin:  0;
+                        }
+
+                        .four-cameras-img {
+                            max-width: 170px;
+                            margin:  0;
+                            margin-top: 15px;
+                            margin-left:  12px;
+                        }
+                    }
+
+                    .cont_characteristics {
+                        margin-top:  20px;
+                        .minicont_caract {
+                            margin-bottom: 15px;
+                            p {
+                                font-size:  13px;
+                            }
+
+                            div{
+                                img{
+                                    width: 100%;
+                                }
+                            }
+
+                            .icons, .icons-m{
+                                max-width:  60px;
+                            }
+                        }
+                    }
+                }
+
+                .right{
+                    position:  absolute;
+                    top: 0;
+                    right:  0;
+                    padding: 15px;
+                    img{ 
+                        width:  65px;
+                    }
+                }
+
+                a{
+                    width:  132px;
+                    font-size:  13px;
+                    border: solid 1px #000;
+                    padding: 10px 0;
+                    border-radius: 12px;
+                    margin-bottom:  20px;
+                }
+            }
+        }
+
+        .cont__slide3 .promotion .left {
+            display:  none;
+        }
+
+        .cont__slide3 .promotion .right .cont-title h3 {
+            font-size: 16px;
+        }
+        
+        .cont__slide4 .promotion-row .cont-title h3 {
+            font-size:  16px;
         }
     }
 }
