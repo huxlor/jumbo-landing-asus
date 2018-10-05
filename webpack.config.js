@@ -16,16 +16,24 @@ module.exports = {
                 "sass-loader" // compiles Sass to CSS, using Node Sass by default
             ]
         },{
-            test: /\.(jpg|png|svg|eot|woff2|woff|ttf)$/,
+            test: /\.(eot|woff2|woff|ttf)$/,
             use: [
                 {
                     loader: 'url-loader',
                     options: {
-                        limit: 2000000
+                        limit: 115000         
                     }
                 }
             ]
-        }]
+        },{
+            test: /\.(jpg|png|svg)$/,
+            use: [
+                {
+                    loader: 'file-loader'
+                }
+            ]
+        }
+    ]
     },
     plugins: [
         new MiniCssExtractPlugin({

@@ -4,22 +4,9 @@
     src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
         url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
         url('../fonts/MyriadPro-Regular.woff') format('woff'),
-        url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
-        url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+        url('../fonts/MyriadPro-Regular.ttf') format('truetype');
     font-weight: normal;
-    font-style: normal;   
-}
-
-@font-face {
-    font-family: 'Myriad Pro Light'; 
-    src: url('../fonts/MyriadPro-Light.eot');
-    src: url('../fonts/MyriadPro-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/MyriadPro-Light.woff2') format('woff2'),
-        url('../fonts/MyriadPro-Light.woff') format('woff'),
-        url('../fonts/MyriadPro-Light.ttf') format('truetype'),
-        url('../fonts/MyriadPro-Light.svg#MyriadPro-Light') format('svg');
-    font-weight: 300;
-    font-style: normal;  
+    font-style: normal;    
 }
 
 @font-face {
@@ -28,8 +15,7 @@
     src: url('../fonts/MyriadPro-Semibold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/MyriadPro-Semibold.woff2') format('woff2'),
         url('../fonts/MyriadPro-Semibold.woff') format('woff'),
-        url('../fonts/MyriadPro-Semibold.ttf') format('truetype'),
-        url('../fonts/MyriadPro-Semibold.svg#MyriadPro-Semibold') format('svg');
+        url('../fonts/MyriadPro-Semibold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
@@ -123,6 +109,13 @@ $white: #fff;
         background-image: url('../images/slide2-bg-asus.jpg');
         background-repeat: no-repeat;
         background-size: 100%;
+        @media screen and (min-width: 769px) {
+            background-size: auto 100%;
+        }
+
+        @media screen and (min-width: 1800px) { 
+            background-size: 100% auto;
+        }
         .selfie-pro{
             .left{
                 padding: 65px 0 0;
