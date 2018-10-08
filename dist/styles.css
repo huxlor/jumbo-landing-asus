@@ -875,14 +875,38 @@ strong {
 .supercont__vivobook .wrapper .center .vivoBook .left {
   overflow: hidden;
   height: 600px; }
+  @media screen and (max-width: 991px) {
+    .supercont__vivobook .wrapper .center .vivoBook .left {
+      height: auto; } }
   .supercont__vivobook .wrapper .center .vivoBook .left img {
     height: auto;
     width: 100%;
     float: right;
     padding-right: 20px; }
+    @media screen and (max-width: 991px) {
+      .supercont__vivobook .wrapper .center .vivoBook .left img {
+        padding-right: 0px; } }
+  .supercont__vivobook .wrapper .center .vivoBook .left:before {
+    content: '';
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.38) 30%, rgba(255, 255, 255, 0.6) 47%, rgba(255, 255, 255, 0.82) 64%, white 78%, white 88%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(30%, rgba(255, 255, 255, 0.38)), color-stop(47%, rgba(255, 255, 255, 0.6)), color-stop(64%, rgba(255, 255, 255, 0.82)), color-stop(78%, white), color-stop(88%, white));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.38) 30%, rgba(255, 255, 255, 0.6) 47%, rgba(255, 255, 255, 0.82) 64%, white 78%, white 88%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.38) 30%, rgba(255, 255, 255, 0.6) 47%, rgba(255, 255, 255, 0.82) 64%, white 78%, white 88%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.38) 30%, rgba(255, 255, 255, 0.6) 47%, rgba(255, 255, 255, 0.82) 64%, white 78%, white 88%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.38) 30%, rgba(255, 255, 255, 0.6) 47%, rgba(255, 255, 255, 0.82) 64%, white 78%, white 88%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); }
 
 .supercont__vivobook .wrapper .center .vivoBook .right {
   height: 600px; }
+  @media screen and (max-width: 991px) {
+    .supercont__vivobook .wrapper .center .vivoBook .right {
+      height: auto; } }
   .supercont__vivobook .wrapper .center .vivoBook .right h2 {
     margin-top: 50px; }
     .supercont__vivobook .wrapper .center .vivoBook .right h2 img {
@@ -924,14 +948,23 @@ strong {
 .supercont__vivobook .wrapper .center .vivoBook .cont_vivobook .right .pc-img .intel {
   right: 35%;
   top: 20%; }
+  @media screen and (max-width: 991px) {
+    .supercont__vivobook .wrapper .center .vivoBook .cont_vivobook .right .pc-img .intel {
+      right: 20%; } }
 
 .supercont__vivobook .wrapper .center .vivoBook .cont_vivobooks .left img {
   float: left !important;
   padding-left: 20px; }
+  @media screen and (max-width: 991px) {
+    .supercont__vivobook .wrapper .center .vivoBook .cont_vivobooks .left img {
+      padding-left: 0px; } }
 
 .supercont__vivobook .wrapper .center .vivoBook .cont_vivobooks .right .pc-img .intel {
   left: 30%;
   top: 20%; }
+  @media screen and (max-width: 991px) {
+    .supercont__vivobook .wrapper .center .vivoBook .cont_vivobooks .right .pc-img .intel {
+      left: 20%; } }
 
 .supercont__vivobook .wrapper .center .vivoBook .cont_vivobookflip .right .pc-img .pc {
   width: 220px; }
@@ -939,6 +972,9 @@ strong {
 .supercont__vivobook .wrapper .center .vivoBook .cont_vivobookflip .right .pc-img .intel {
   right: 25%;
   top: 20%; }
+  @media screen and (max-width: 991px) {
+    .supercont__vivobook .wrapper .center .vivoBook .cont_vivobookflip .right .pc-img .intel {
+      right: 5%; } }
 
 .supercont__vivobook .wrapper .center .vivoBook .tyc {
   font-size: 10px;
