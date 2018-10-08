@@ -30,6 +30,10 @@ $white: #fff;
     padding: 0;
 }
 
+strong{
+    font-family: $myriad-b !important;
+}
+
 .supercont__asus{ 
     min-height: 1000px;
     .cont__slide1{
@@ -294,6 +298,131 @@ $white: #fff;
                             width: 100%;
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+.supercont__vivobook{
+    .wrapper{
+        .center{
+            .vivoBook{
+                .left{
+                    overflow: hidden;
+                    height: 600px;
+                    img{
+                        height: auto;
+                        width: 100%;
+                        float: right;
+                        padding-right: 20px;
+                    } 
+                }
+
+                .right{
+                    height: 600px;
+                    h2{
+                        margin-top: 50px;
+                        img{
+                            display: block;
+                            margin: 0 auto;
+                            width: 250px;
+                        }
+                    }
+
+                    .pc-img{
+                        position: relative;
+                        margin: 30px 0;
+                        .pc{
+                            width: 300px;
+                            display: block;
+                            margin: 0 auto;
+                        }
+
+                        .intel{
+                            position: absolute;
+                            width: 50px;
+                        }
+                    }
+
+                    h3{
+                        line-height: 1.2;
+                        font-family: $myriad-l;
+                        font-size: 20px !important;
+                        text-align: center;
+                        margin-bottom: 30px;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 18px;
+                        font-family: $myriad-l;
+                        max-width: 500px;
+                        margin: 0 auto;
+                    }
+
+                    a{
+                        font-size: 20px;
+                        text-align: center;
+                        width: 200px;
+                        display: block;
+                        // margin: 0 auto;
+                        padding: 10px 0;
+                        border: solid #000 1px;
+                        border-radius: 5px;
+                        margin: 40px auto 20px;
+                    }
+                }
+
+                .cont_vivobook{
+                    .right{ 
+                        .pc-img{
+                            .intel{
+                                right: 35%;
+                                top: 20%;
+                            }
+                        }
+                    }
+                }
+
+                .cont_vivobooks{
+                    .left{
+                        img{
+                            float: left !important;
+                            padding-left: 20px;
+                        }
+                    }
+
+                    .right{ 
+                        .pc-img{
+                            .intel{
+                                left: 30%;
+                                top: 20%;
+                            }
+                        }
+                    }
+                }
+
+                .cont_vivobookflip{
+                    .right{ 
+                        .pc-img{
+                            .pc{
+                                width: 220px;
+                            }
+
+                            .intel{
+                                right: 25%;
+                                top: 20%;
+                            }
+                        }
+                    }
+                }
+
+                .tyc{
+                    font-size: 10px;
+                    font-family: $myriad-b;
+                    text-align: center;
+                    margin: 20px;
                 }
             }
         }

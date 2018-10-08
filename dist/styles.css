@@ -686,6 +686,9 @@
 .nopadding {
   padding: 0; }
 
+strong {
+  font-family: "Myriad Pro Bold" !important; }
+
 .supercont__asus {
   min-height: 1000px; }
   .supercont__asus .cont__slide1 {
@@ -868,6 +871,80 @@
           background-color: #fff;
           text-align: center;
           width: 100%; }
+
+.supercont__vivobook .wrapper .center .vivoBook .left {
+  overflow: hidden;
+  height: 600px; }
+  .supercont__vivobook .wrapper .center .vivoBook .left img {
+    height: auto;
+    width: 100%;
+    float: right;
+    padding-right: 20px; }
+
+.supercont__vivobook .wrapper .center .vivoBook .right {
+  height: 600px; }
+  .supercont__vivobook .wrapper .center .vivoBook .right h2 {
+    margin-top: 50px; }
+    .supercont__vivobook .wrapper .center .vivoBook .right h2 img {
+      display: block;
+      margin: 0 auto;
+      width: 250px; }
+  .supercont__vivobook .wrapper .center .vivoBook .right .pc-img {
+    position: relative;
+    margin: 30px 0; }
+    .supercont__vivobook .wrapper .center .vivoBook .right .pc-img .pc {
+      width: 300px;
+      display: block;
+      margin: 0 auto; }
+    .supercont__vivobook .wrapper .center .vivoBook .right .pc-img .intel {
+      position: absolute;
+      width: 50px; }
+  .supercont__vivobook .wrapper .center .vivoBook .right h3 {
+    line-height: 1.2;
+    font-family: "Myriad Pro Light";
+    font-size: 20px !important;
+    text-align: center;
+    margin-bottom: 30px; }
+  .supercont__vivobook .wrapper .center .vivoBook .right p {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Myriad Pro Light";
+    max-width: 500px;
+    margin: 0 auto; }
+  .supercont__vivobook .wrapper .center .vivoBook .right a {
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    display: block;
+    padding: 10px 0;
+    border: solid #000 1px;
+    border-radius: 5px;
+    margin: 40px auto 20px; }
+
+.supercont__vivobook .wrapper .center .vivoBook .cont_vivobook .right .pc-img .intel {
+  right: 35%;
+  top: 20%; }
+
+.supercont__vivobook .wrapper .center .vivoBook .cont_vivobooks .left img {
+  float: left !important;
+  padding-left: 20px; }
+
+.supercont__vivobook .wrapper .center .vivoBook .cont_vivobooks .right .pc-img .intel {
+  left: 30%;
+  top: 20%; }
+
+.supercont__vivobook .wrapper .center .vivoBook .cont_vivobookflip .right .pc-img .pc {
+  width: 220px; }
+
+.supercont__vivobook .wrapper .center .vivoBook .cont_vivobookflip .right .pc-img .intel {
+  right: 25%;
+  top: 20%; }
+
+.supercont__vivobook .wrapper .center .vivoBook .tyc {
+  font-size: 10px;
+  font-family: "Myriad Pro Bold";
+  text-align: center;
+  margin: 20px; }
 
 @media (max-width: 768px) {
   .wrapper, .center {
