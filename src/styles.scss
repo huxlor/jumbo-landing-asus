@@ -324,21 +324,23 @@ strong{
                         }
                     } 
 
-                    &:before{
-                        content: ''; 
-                        width: 100%;
-                        height: 50px;
-                        position: absolute;
-                        bottom: 0;
-                        display: inline-block;
-                        background: rgba(255,255,255,0);
-                        background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.38) 30%, rgba(255,255,255,0.6) 47%, rgba(255,255,255,0.82) 64%, rgba(255,255,255,1) 78%, rgba(255,255,255,1) 88%);
-                        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(30%, rgba(255,255,255,0.38)), color-stop(47%, rgba(255,255,255,0.6)), color-stop(64%, rgba(255,255,255,0.82)), color-stop(78%, rgba(255,255,255,1)), color-stop(88%, rgba(255,255,255,1)));
-                        background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.38) 30%, rgba(255,255,255,0.6) 47%, rgba(255,255,255,0.82) 64%, rgba(255,255,255,1) 78%, rgba(255,255,255,1) 88%);
-                        background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.38) 30%, rgba(255,255,255,0.6) 47%, rgba(255,255,255,0.82) 64%, rgba(255,255,255,1) 78%, rgba(255,255,255,1) 88%);
-                        background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.38) 30%, rgba(255,255,255,0.6) 47%, rgba(255,255,255,0.82) 64%, rgba(255,255,255,1) 78%, rgba(255,255,255,1) 88%);
-                        background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.38) 30%, rgba(255,255,255,0.6) 47%, rgba(255,255,255,0.82) 64%, rgba(255,255,255,1) 78%, rgba(255,255,255,1) 88%);
-                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+                    @media screen and (max-width: 991px) {
+                        &:before{
+                            content: ''; 
+                            width: 100%;
+                            height: 50px;
+                            position: absolute;
+                            bottom: 0;
+                            display: inline-block;
+                            background: rgba(255,255,255,0);
+                            background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.38) 30%, rgba(255,255,255,0.6) 47%, rgba(255,255,255,0.82) 64%, rgba(255,255,255,1) 78%, rgba(255,255,255,1) 88%);
+                            background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(30%, rgba(255,255,255,0.38)), color-stop(47%, rgba(255,255,255,0.6)), color-stop(64%, rgba(255,255,255,0.82)), color-stop(78%, rgba(255,255,255,1)), color-stop(88%, rgba(255,255,255,1)));
+                            background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.38) 30%, rgba(255,255,255,0.6) 47%, rgba(255,255,255,0.82) 64%, rgba(255,255,255,1) 78%, rgba(255,255,255,1) 88%);
+                            background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.38) 30%, rgba(255,255,255,0.6) 47%, rgba(255,255,255,0.82) 64%, rgba(255,255,255,1) 78%, rgba(255,255,255,1) 88%);
+                            background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.38) 30%, rgba(255,255,255,0.6) 47%, rgba(255,255,255,0.82) 64%, rgba(255,255,255,1) 78%, rgba(255,255,255,1) 88%);
+                            background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.38) 30%, rgba(255,255,255,0.6) 47%, rgba(255,255,255,0.82) 64%, rgba(255,255,255,1) 78%, rgba(255,255,255,1) 88%);
+                            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+                        }
                     }
                 }
 
@@ -397,6 +399,9 @@ strong{
                         border: solid #000 1px;
                         border-radius: 5px;
                         margin: 40px auto 20px;
+                        @media screen and (max-width: 991px) {
+                            margin: 20px auto 35px;
+                        }
                     }
                 }
 
@@ -464,6 +469,160 @@ strong{
                 }
             }
         }
+    }
+}
+
+.supercont__selfiepro{
+    .section__1{
+        .center{
+            .cont_section1{
+                .left{
+                    .asus-logo{
+                        margin: 80px 0px 50px 35px;
+                        img{
+                            width: 130px;
+                            height: auto;
+                        }
+                    }
+
+                    h2{
+                        margin-left: 35px;
+                        color: #e83f0b;
+                        font-size: 30px;
+                        font-family: $myriad-b;
+                        img{
+                            width: 65px;
+                            display: inline-block;
+                        }
+                        
+                        span{
+                            padding-left: 15px;
+                        }
+                    }
+
+                    p{
+                       font-family: $myriad-l;
+                       font-size: 16px;
+                       color: #3f3b3a;
+                       text-align: left;
+                       margin-top: 40px;
+                       //padding: 0 25px; 
+                    }
+
+                    .grid-inter{
+                        p{
+                            font-size: 80px;
+                            color: #e83f0b;
+                            font-family: $myriad-b; 
+                            small{
+                                font-size: 40px;
+                            }
+                        }
+
+                        div{
+                            font-family: $myriad-l;
+                            font-size: 14px;
+                            color: #3f3b3a;
+                            text-align: center;
+                        }
+                    }
+                }
+
+                .right{
+                    height: 700px;
+                    padding-top: 30px;
+                    img{
+                        height: 100%;
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+
+    .section__2{
+        background-color: #4bbcba;
+        .center{
+            .cont_section2{
+                position: relative;
+                overflow: hidden;
+                .brush{
+                    position: absolute;
+                    width: 900px;
+                    left: calc(50% - 500px);
+                    top: -50px;
+                }
+
+                .right{
+                    padding: 100px 0 130px;
+                    h2{
+                        text-align: center;
+                        margin-left: -55px;
+                        color: #fff;
+                        font-size: 30px;
+                        font-family: $myriad-b;
+                        img{
+                            width: 65px;
+                            display: inline-block;
+                        }
+
+                        span{
+                            padding-left: 15px;
+                        }
+                    }
+
+                    h3{
+                        text-align: center;
+                        font-size: 35px;
+                        font-family: $myriad-b;
+                        margin-top: 30px;   
+                        color: #fff;
+                    }
+
+                    & > p{
+                        font-family: $myriad-l;
+                        font-size: 16px;
+                        color: #3f3b3a;
+                        margin: 25px 0;
+                        text-align: center;
+                        padding: 0 15%;
+                    }
+
+                    .grid-inter{
+                        p{
+                            text-align: center;
+                            font-size: 80px;
+                            color: #fff;
+                            font-family: $myriad-b; 
+                            small{
+                                font-size: 40px;
+                            }
+                        }
+
+                        div{
+                            font-family: $myriad-l;
+                            font-size: 14px;
+                            color: #fff;
+                            text-align: center;
+                        }
+
+                        img{
+                            display: block;
+                            margin: 0 auto;
+                            padding: 15px 0 10px;
+                        }
+
+                        &.lastone{
+                            margin-top: -10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section__3{
+
     }
 }
 

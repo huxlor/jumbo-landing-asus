@@ -886,21 +886,22 @@ strong {
     @media screen and (max-width: 991px) {
       .supercont__vivobook .wrapper .center .vivoBook .left img {
         padding-right: 0px; } }
-  .supercont__vivobook .wrapper .center .vivoBook .left:before {
-    content: '';
-    width: 100%;
-    height: 50px;
-    position: absolute;
-    bottom: 0;
-    display: inline-block;
-    background: rgba(255, 255, 255, 0);
-    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.38) 30%, rgba(255, 255, 255, 0.6) 47%, rgba(255, 255, 255, 0.82) 64%, white 78%, white 88%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(30%, rgba(255, 255, 255, 0.38)), color-stop(47%, rgba(255, 255, 255, 0.6)), color-stop(64%, rgba(255, 255, 255, 0.82)), color-stop(78%, white), color-stop(88%, white));
-    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.38) 30%, rgba(255, 255, 255, 0.6) 47%, rgba(255, 255, 255, 0.82) 64%, white 78%, white 88%);
-    background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.38) 30%, rgba(255, 255, 255, 0.6) 47%, rgba(255, 255, 255, 0.82) 64%, white 78%, white 88%);
-    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.38) 30%, rgba(255, 255, 255, 0.6) 47%, rgba(255, 255, 255, 0.82) 64%, white 78%, white 88%);
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.38) 30%, rgba(255, 255, 255, 0.6) 47%, rgba(255, 255, 255, 0.82) 64%, white 78%, white 88%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); }
+  @media screen and (max-width: 991px) {
+    .supercont__vivobook .wrapper .center .vivoBook .left:before {
+      content: '';
+      width: 100%;
+      height: 50px;
+      position: absolute;
+      bottom: 0;
+      display: inline-block;
+      background: rgba(255, 255, 255, 0);
+      background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.38) 30%, rgba(255, 255, 255, 0.6) 47%, rgba(255, 255, 255, 0.82) 64%, white 78%, white 88%);
+      background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(30%, rgba(255, 255, 255, 0.38)), color-stop(47%, rgba(255, 255, 255, 0.6)), color-stop(64%, rgba(255, 255, 255, 0.82)), color-stop(78%, white), color-stop(88%, white));
+      background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.38) 30%, rgba(255, 255, 255, 0.6) 47%, rgba(255, 255, 255, 0.82) 64%, white 78%, white 88%);
+      background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.38) 30%, rgba(255, 255, 255, 0.6) 47%, rgba(255, 255, 255, 0.82) 64%, white 78%, white 88%);
+      background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.38) 30%, rgba(255, 255, 255, 0.6) 47%, rgba(255, 255, 255, 0.82) 64%, white 78%, white 88%);
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.38) 30%, rgba(255, 255, 255, 0.6) 47%, rgba(255, 255, 255, 0.82) 64%, white 78%, white 88%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); } }
 
 .supercont__vivobook .wrapper .center .vivoBook .right {
   height: 600px; }
@@ -944,6 +945,9 @@ strong {
     border: solid #000 1px;
     border-radius: 5px;
     margin: 40px auto 20px; }
+    @media screen and (max-width: 991px) {
+      .supercont__vivobook .wrapper .center .vivoBook .right a {
+        margin: 20px auto 35px; } }
 
 .supercont__vivobook .wrapper .center .vivoBook .cont_vivobook .right .pc-img .intel {
   right: 35%;
@@ -981,6 +985,105 @@ strong {
   font-family: "Myriad Pro Bold";
   text-align: center;
   margin: 20px; }
+
+.supercont__selfiepro .section__1 .center .cont_section1 .left .asus-logo {
+  margin: 80px 0px 50px 35px; }
+  .supercont__selfiepro .section__1 .center .cont_section1 .left .asus-logo img {
+    width: 130px;
+    height: auto; }
+
+.supercont__selfiepro .section__1 .center .cont_section1 .left h2 {
+  margin-left: 35px;
+  color: #e83f0b;
+  font-size: 30px;
+  font-family: "Myriad Pro Bold"; }
+  .supercont__selfiepro .section__1 .center .cont_section1 .left h2 img {
+    width: 65px;
+    display: inline-block; }
+  .supercont__selfiepro .section__1 .center .cont_section1 .left h2 span {
+    padding-left: 15px; }
+
+.supercont__selfiepro .section__1 .center .cont_section1 .left p {
+  font-family: "Myriad Pro Light";
+  font-size: 16px;
+  color: #3f3b3a;
+  text-align: left;
+  margin-top: 40px; }
+
+.supercont__selfiepro .section__1 .center .cont_section1 .left .grid-inter p {
+  font-size: 80px;
+  color: #e83f0b;
+  font-family: "Myriad Pro Bold"; }
+  .supercont__selfiepro .section__1 .center .cont_section1 .left .grid-inter p small {
+    font-size: 40px; }
+
+.supercont__selfiepro .section__1 .center .cont_section1 .left .grid-inter div {
+  font-family: "Myriad Pro Light";
+  font-size: 14px;
+  color: #3f3b3a;
+  text-align: center; }
+
+.supercont__selfiepro .section__1 .center .cont_section1 .right {
+  height: 700px;
+  padding-top: 30px; }
+  .supercont__selfiepro .section__1 .center .cont_section1 .right img {
+    height: 100%;
+    float: right; }
+
+.supercont__selfiepro .section__2 {
+  background-color: #4bbcba; }
+  .supercont__selfiepro .section__2 .center .cont_section2 {
+    position: relative;
+    overflow: hidden; }
+    .supercont__selfiepro .section__2 .center .cont_section2 .brush {
+      position: absolute;
+      width: 900px;
+      left: calc(50% - 500px);
+      top: -50px; }
+    .supercont__selfiepro .section__2 .center .cont_section2 .right {
+      padding: 100px 0 130px; }
+      .supercont__selfiepro .section__2 .center .cont_section2 .right h2 {
+        text-align: center;
+        margin-left: -55px;
+        color: #fff;
+        font-size: 30px;
+        font-family: "Myriad Pro Bold"; }
+        .supercont__selfiepro .section__2 .center .cont_section2 .right h2 img {
+          width: 65px;
+          display: inline-block; }
+        .supercont__selfiepro .section__2 .center .cont_section2 .right h2 span {
+          padding-left: 15px; }
+      .supercont__selfiepro .section__2 .center .cont_section2 .right h3 {
+        text-align: center;
+        font-size: 35px;
+        font-family: "Myriad Pro Bold";
+        margin-top: 30px;
+        color: #fff; }
+      .supercont__selfiepro .section__2 .center .cont_section2 .right > p {
+        font-family: "Myriad Pro Light";
+        font-size: 16px;
+        color: #3f3b3a;
+        margin: 25px 0;
+        text-align: center;
+        padding: 0 15%; }
+      .supercont__selfiepro .section__2 .center .cont_section2 .right .grid-inter p {
+        text-align: center;
+        font-size: 80px;
+        color: #fff;
+        font-family: "Myriad Pro Bold"; }
+        .supercont__selfiepro .section__2 .center .cont_section2 .right .grid-inter p small {
+          font-size: 40px; }
+      .supercont__selfiepro .section__2 .center .cont_section2 .right .grid-inter div {
+        font-family: "Myriad Pro Light";
+        font-size: 14px;
+        color: #fff;
+        text-align: center; }
+      .supercont__selfiepro .section__2 .center .cont_section2 .right .grid-inter img {
+        display: block;
+        margin: 0 auto;
+        padding: 15px 0 10px; }
+      .supercont__selfiepro .section__2 .center .cont_section2 .right .grid-inter.lastone {
+        margin-top: -10px; }
 
 @media (max-width: 768px) {
   .wrapper, .center {
