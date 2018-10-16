@@ -686,6 +686,9 @@
 .nopadding {
   padding: 0; }
 
+.nopadding-left {
+  padding-left: 0; }
+
 strong {
   font-family: "Myriad Pro Bold" !important; }
 
@@ -986,11 +989,27 @@ strong {
   text-align: center;
   margin: 20px; }
 
+.supercont__selfiepro .section__1 .center .cont_section1 .asus-logo-2 {
+  display: none; }
+  @media screen and (max-width: 680px) {
+    .supercont__selfiepro .section__1 .center .cont_section1 .asus-logo-2 {
+      display: inline-block;
+      margin: 30px 0px 50px 0px; }
+      .supercont__selfiepro .section__1 .center .cont_section1 .asus-logo-2 img {
+        width: 80px;
+        float: right; } }
+
 .supercont__selfiepro .section__1 .center .cont_section1 .left .asus-logo {
   margin: 80px 0px 50px 35px; }
   .supercont__selfiepro .section__1 .center .cont_section1 .left .asus-logo img {
     width: 130px;
     height: auto; }
+  @media screen and (max-width: 680px) {
+    .supercont__selfiepro .section__1 .center .cont_section1 .left .asus-logo {
+      margin: 80px 35px 50px 0px;
+      display: none; }
+      .supercont__selfiepro .section__1 .center .cont_section1 .left .asus-logo img {
+        width: 80px; } }
 
 .supercont__selfiepro .section__1 .center .cont_section1 .left h2 {
   margin-left: 35px;
@@ -1002,13 +1021,29 @@ strong {
     display: inline-block; }
   .supercont__selfiepro .section__1 .center .cont_section1 .left h2 span {
     padding-left: 15px; }
+  @media screen and (max-width: 680px) {
+    .supercont__selfiepro .section__1 .center .cont_section1 .left h2 {
+      margin-left: 0;
+      font-size: 15px;
+      margin-bottom: 30px; }
+      .supercont__selfiepro .section__1 .center .cont_section1 .left h2 img {
+        width: 40px;
+        display: block;
+        margin: 0 auto; }
+      .supercont__selfiepro .section__1 .center .cont_section1 .left h2 span {
+        padding-left: 5px;
+        width: 100%;
+        text-align: center; } }
 
-.supercont__selfiepro .section__1 .center .cont_section1 .left p {
+.supercont__selfiepro .section__1 .center .cont_section1 .left > p {
   font-family: "Myriad Pro Light";
   font-size: 16px;
   color: #3f3b3a;
   text-align: left;
   margin-top: 40px; }
+  @media screen and (max-width: 680px) {
+    .supercont__selfiepro .section__1 .center .cont_section1 .left > p {
+      display: none; } }
 
 .supercont__selfiepro .section__1 .center .cont_section1 .left .grid-inter p {
   font-size: 80px;
@@ -1023,12 +1058,36 @@ strong {
   color: #3f3b3a;
   text-align: center; }
 
+@media screen and (max-width: 680px) {
+  .supercont__selfiepro .section__1 .center .cont_section1 .left .grid-inter {
+    padding: 0; }
+    .supercont__selfiepro .section__1 .center .cont_section1 .left .grid-inter p {
+      text-align: center;
+      font-size: 30px; }
+      .supercont__selfiepro .section__1 .center .cont_section1 .left .grid-inter p small {
+        font-size: 15px; }
+    .supercont__selfiepro .section__1 .center .cont_section1 .left .grid-inter div {
+      font-size: 10px; } }
+
+@media screen and (max-width: 680px) {
+  .supercont__selfiepro .section__1 .center .cont_section1 .left {
+    padding: 0; } }
+
 .supercont__selfiepro .section__1 .center .cont_section1 .right {
   height: 700px;
   padding-top: 30px; }
   .supercont__selfiepro .section__1 .center .cont_section1 .right img {
     height: 100%;
     float: right; }
+  @media screen and (max-width: 680px) {
+    .supercont__selfiepro .section__1 .center .cont_section1 .right {
+      height: 330px; }
+      .supercont__selfiepro .section__1 .center .cont_section1 .right img {
+        float: left; } }
+
+@media screen and (max-width: 680px) {
+  .supercont__selfiepro .section__1 {
+    overflow: hidden; } }
 
 .supercont__selfiepro .section__2 {
   background-color: #4bbcba; }
@@ -1040,6 +1099,12 @@ strong {
       width: 900px;
       left: calc(50% - 500px);
       top: -50px; }
+      @media screen and (max-width: 680px) {
+        .supercont__selfiepro .section__2 .center .cont_section2 .brush {
+          position: absolute;
+          width: 600px;
+          left: calc(50% - 300px);
+          top: 40px; } }
     .supercont__selfiepro .section__2 .center .cont_section2 .right {
       padding: 100px 0 130px; }
       .supercont__selfiepro .section__2 .center .cont_section2 .right h2 {
@@ -1053,12 +1118,28 @@ strong {
           display: inline-block; }
         .supercont__selfiepro .section__2 .center .cont_section2 .right h2 span {
           padding-left: 15px; }
+        @media screen and (max-width: 680px) {
+          .supercont__selfiepro .section__2 .center .cont_section2 .right h2 {
+            margin-left: 0;
+            font-size: 15px; }
+            .supercont__selfiepro .section__2 .center .cont_section2 .right h2 img {
+              width: 40px;
+              display: block;
+              margin: 0 auto; }
+            .supercont__selfiepro .section__2 .center .cont_section2 .right h2 span {
+              padding-left: 5px;
+              width: 100%;
+              text-align: center; } }
       .supercont__selfiepro .section__2 .center .cont_section2 .right h3 {
         text-align: center;
         font-size: 35px;
         font-family: "Myriad Pro Bold";
-        margin-top: 30px;
         color: #fff; }
+        @media screen and (max-width: 680px) {
+          .supercont__selfiepro .section__2 .center .cont_section2 .right h3 {
+            font-size: 18px;
+            line-height: 1.2;
+            margin-top: 10px; } }
       .supercont__selfiepro .section__2 .center .cont_section2 .right > p {
         font-family: "Myriad Pro Light";
         font-size: 16px;
@@ -1084,6 +1165,150 @@ strong {
         padding: 15px 0 10px; }
       .supercont__selfiepro .section__2 .center .cont_section2 .right .grid-inter.lastone {
         margin-top: -10px; }
+      @media screen and (max-width: 680px) {
+        .supercont__selfiepro .section__2 .center .cont_section2 .right .grid-inter {
+          padding: 0; }
+          .supercont__selfiepro .section__2 .center .cont_section2 .right .grid-inter p {
+            text-align: center;
+            font-size: 30px; }
+            .supercont__selfiepro .section__2 .center .cont_section2 .right .grid-inter p small {
+              font-size: 15px; }
+          .supercont__selfiepro .section__2 .center .cont_section2 .right .grid-inter div {
+            font-size: 10px; }
+          .supercont__selfiepro .section__2 .center .cont_section2 .right .grid-inter img {
+            width: 60px;
+            padding: 0px 0 8px; }
+          .supercont__selfiepro .section__2 .center .cont_section2 .right .grid-inter.lastone {
+            margin-top: 0px; } }
+
+.supercont__selfiepro .section__3 {
+  position: relative; }
+  .supercont__selfiepro .section__3 .center .cont_section3 {
+    padding-top: 350px; }
+    .supercont__selfiepro .section__3 .center .cont_section3 .img-out {
+      position: absolute;
+      top: -85px;
+      width: 600px;
+      left: calc(50% - 300px); }
+    .supercont__selfiepro .section__3 .center .cont_section3 .img-out-two {
+      position: absolute;
+      top: 0;
+      margin-top: -260px;
+      right: 80px;
+      z-index: 100; }
+    .supercont__selfiepro .section__3 .center .cont_section3 .left {
+      padding-left: 50px; }
+      .supercont__selfiepro .section__3 .center .cont_section3 .left .img-title {
+        margin-bottom: 50px; }
+        .supercont__selfiepro .section__3 .center .cont_section3 .left .img-title img {
+          width: 450px; }
+        @media screen and (max-width: 680px) {
+          .supercont__selfiepro .section__3 .center .cont_section3 .left .img-title {
+            display: none; }
+            .supercont__selfiepro .section__3 .center .cont_section3 .left .img-title img {
+              width: 200px; } }
+      .supercont__selfiepro .section__3 .center .cont_section3 .left h2 {
+        color: #e83f0b;
+        font-size: 30px;
+        font-family: "Myriad Pro Bold"; }
+        .supercont__selfiepro .section__3 .center .cont_section3 .left h2 img {
+          width: 65px;
+          display: inline-block; }
+        .supercont__selfiepro .section__3 .center .cont_section3 .left h2 span {
+          padding-left: 15px; }
+        @media screen and (max-width: 680px) {
+          .supercont__selfiepro .section__3 .center .cont_section3 .left h2 {
+            margin-left: 0;
+            font-size: 15px; }
+            .supercont__selfiepro .section__3 .center .cont_section3 .left h2 img {
+              width: 40px;
+              display: block;
+              margin: 0 auto; }
+            .supercont__selfiepro .section__3 .center .cont_section3 .left h2 span {
+              padding-left: 5px;
+              width: 100%;
+              text-align: center; } }
+      .supercont__selfiepro .section__3 .center .cont_section3 .left h3 {
+        margin-top: 20px;
+        font-family: "Myriad Pro Bold";
+        font-size: 40px;
+        color: #3f3b3a; }
+        @media screen and (max-width: 680px) {
+          .supercont__selfiepro .section__3 .center .cont_section3 .left h3 {
+            font-size: 20px;
+            text-align: center;
+            margin-top: 0; } }
+      .supercont__selfiepro .section__3 .center .cont_section3 .left > p {
+        width: 70%;
+        font-family: "Myriad Pro Light";
+        font-size: 16px;
+        color: #3f3b3a;
+        text-align: left;
+        margin-top: 40px; }
+        @media screen and (max-width: 680px) {
+          .supercont__selfiepro .section__3 .center .cont_section3 .left > p {
+            width: 100%;
+            text-align: center; } }
+      @media screen and (max-width: 680px) {
+        .supercont__selfiepro .section__3 .center .cont_section3 .left .hide-cellphone {
+          display: block !important;
+          width: 60%;
+          margin: 30px auto; } }
+      @media screen and (max-width: 680px) {
+        .supercont__selfiepro .section__3 .center .cont_section3 .left .hide-title {
+          display: block !important; }
+          .supercont__selfiepro .section__3 .center .cont_section3 .left .hide-title img {
+            width: 60%;
+            margin: 30px auto; } }
+      .supercont__selfiepro .section__3 .center .cont_section3 .left .grid-inter {
+        margin-top: 30px;
+        margin-bottom: 80px; }
+        .supercont__selfiepro .section__3 .center .cont_section3 .left .grid-inter p {
+          text-align: center;
+          font-size: 80px;
+          color: #e83f0b;
+          font-family: "Myriad Pro Bold"; }
+          .supercont__selfiepro .section__3 .center .cont_section3 .left .grid-inter p small {
+            font-size: 40px; }
+        .supercont__selfiepro .section__3 .center .cont_section3 .left .grid-inter div {
+          font-family: "Myriad Pro Light";
+          font-size: 14px;
+          color: #3f3b3a;
+          text-align: center; }
+        @media screen and (max-width: 680px) {
+          .supercont__selfiepro .section__3 .center .cont_section3 .left .grid-inter {
+            padding: 0; }
+            .supercont__selfiepro .section__3 .center .cont_section3 .left .grid-inter p {
+              text-align: center;
+              font-size: 30px; }
+              .supercont__selfiepro .section__3 .center .cont_section3 .left .grid-inter p small {
+                font-size: 15px; }
+            .supercont__selfiepro .section__3 .center .cont_section3 .left .grid-inter div {
+              font-size: 10px; }
+            .supercont__selfiepro .section__3 .center .cont_section3 .left .grid-inter img {
+              width: 60px;
+              padding: 0px 0 8px; }
+            .supercont__selfiepro .section__3 .center .cont_section3 .left .grid-inter.lastone {
+              margin-top: 0px; } }
+    .supercont__selfiepro .section__3 .center .cont_section3 .right {
+      padding-top: 150px; }
+      .supercont__selfiepro .section__3 .center .cont_section3 .right img {
+        width: 100%;
+        vertical-align: middle; }
+        @media screen and (max-width: 680px) {
+          .supercont__selfiepro .section__3 .center .cont_section3 .right img {
+            display: none; } }
+    @media screen and (max-width: 680px) {
+      .supercont__selfiepro .section__3 .center .cont_section3 {
+        padding-top: 120px; }
+        .supercont__selfiepro .section__3 .center .cont_section3 .img-out {
+          width: 200px;
+          left: calc(50% - 100px);
+          top: -40px; }
+        .supercont__selfiepro .section__3 .center .cont_section3 .img-out-two {
+          width: 140px;
+          margin-top: -55px;
+          right: -10px; } }
 
 @media (max-width: 768px) {
   .wrapper, .center {

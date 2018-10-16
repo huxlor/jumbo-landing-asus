@@ -30,6 +30,10 @@ $white: #fff;
     padding: 0;
 }
 
+.nopadding-left{
+    padding-left: 0;
+}
+
 strong{
     font-family: $myriad-b !important;
 }
@@ -476,12 +480,31 @@ strong{
     .section__1{
         .center{
             .cont_section1{
+                .asus-logo-2{
+                    display: none;
+                    @media screen and (max-width: 680px) {
+                        display: inline-block;
+                        margin: 30px 0px 50px 0px;
+                        img{
+                            width: 80px; 
+                            float: right;
+                        }
+                    }
+                }
+
                 .left{
                     .asus-logo{
                         margin: 80px 0px 50px 35px;
                         img{
                             width: 130px;
                             height: auto;
+                        }
+                        @media screen and (max-width: 680px) {
+                            margin: 80px 35px 50px 0px;
+                            display: none;
+                            img{
+                                width: 80px;
+                            }
                         }
                     }
 
@@ -498,15 +521,35 @@ strong{
                         span{
                             padding-left: 15px;
                         }
+
+                        @media screen and (max-width: 680px) {
+                            margin-left: 0;
+                            font-size: 15px;
+                            margin-bottom: 30px;
+                            img{
+                                width: 40px;
+                                display: block; 
+                                margin: 0 auto;
+                            } 
+
+                            span{
+                                padding-left: 5px;
+                                width: 100%;
+                                text-align: center;
+                            }
+                        } 
                     }
 
-                    p{
+                    & > p{
                        font-family: $myriad-l;
                        font-size: 16px;
                        color: #3f3b3a;
                        text-align: left;
                        margin-top: 40px;
-                       //padding: 0 25px; 
+                       //padding: 0 25px;
+                       @media screen and (max-width: 680px) {
+                            display: none;
+                        } 
                     }
 
                     .grid-inter{
@@ -525,6 +568,24 @@ strong{
                             color: #3f3b3a;
                             text-align: center;
                         }
+                        @media screen and (max-width: 680px) {
+                            padding: 0;
+                            p{
+                                text-align: center;
+                                font-size: 30px;
+                                small{
+                                    font-size: 15px; 
+                                }
+                            }
+
+                            div{
+                                font-size: 10px;
+                            }
+                        }
+                    }
+
+                    @media screen and (max-width: 680px) {
+                        padding: 0;
                     }
                 }
 
@@ -535,8 +596,19 @@ strong{
                         height: 100%;
                         float: right;
                     }
+
+                    @media screen and (max-width: 680px) {
+                        height: 330px;
+                        img{
+                            float: left;
+                        }
+                    }
                 }
             }
+        }
+
+        @media screen and (max-width: 680px) {
+            overflow: hidden;
         }
     }
 
@@ -551,6 +623,12 @@ strong{
                     width: 900px;
                     left: calc(50% - 500px);
                     top: -50px;
+                    @media screen and (max-width: 680px) {
+                        position: absolute;
+                        width: 600px;
+                        left: calc(50% - 300px);
+                        top: 40px;
+                    }
                 }
 
                 .right{
@@ -569,14 +647,34 @@ strong{
                         span{
                             padding-left: 15px;
                         }
+
+                        @media screen and (max-width: 680px) {
+                            margin-left: 0;
+                            font-size: 15px;
+                            img{
+                                width: 40px;
+                                display: block; 
+                                margin: 0 auto;
+                            } 
+
+                            span{
+                                padding-left: 5px;
+                                width: 100%;
+                                text-align: center;
+                            }
+                        }
                     }
 
                     h3{
                         text-align: center;
                         font-size: 35px;
-                        font-family: $myriad-b;
-                        margin-top: 30px;   
+                        font-family: $myriad-b; 
                         color: #fff;
+                        @media screen and (max-width: 680px) {
+                            font-size: 18px;
+                            line-height: 1.2;
+                            margin-top: 10px;
+                        }
                     }
 
                     & > p{
@@ -615,6 +713,30 @@ strong{
                         &.lastone{
                             margin-top: -10px;
                         }
+
+                        @media screen and (max-width: 680px) {
+                            padding: 0;
+                            p{
+                                text-align: center;
+                                font-size: 30px;
+                                small{
+                                    font-size: 15px; 
+                                }
+                            }
+
+                            div{
+                                font-size: 10px;
+                            }
+
+                            img{
+                                width: 60px;
+                                padding: 0px 0 8px;
+                            }
+
+                            &.lastone{
+                                margin-top: 0px;
+                            }
+                        }
                     }
                 }
             }
@@ -622,7 +744,190 @@ strong{
     }
 
     .section__3{
+        position: relative;
+        .center{
+            .cont_section3{
+                padding-top: 350px;
+                .img-out{
+                    position: absolute;
+                    top: -85px; 
+                    width: 600px;
+                    left: calc(50% - 300px); 
+                }
 
+                .img-out-two{
+                    position: absolute;
+                    top: 0;
+                    margin-top: -260px;
+                    right: 80px;
+                    z-index: 100; 
+                }
+
+                .left{
+                    padding-left: 50px;
+                    .img-title{
+                        margin-bottom: 50px;
+                        img{
+                            width: 450px;
+                        }
+
+                        @media screen and (max-width: 680px) {
+                            display: none;
+                            img{
+                                width: 200px;
+                            }
+                        }
+                    }
+
+                    h2{
+                        color: #e83f0b;
+                        font-size: 30px;
+                        font-family: $myriad-b;
+                        img{
+                            width: 65px;
+                            display: inline-block;
+                        }
+                        
+                        span{
+                            padding-left: 15px;
+                        }
+
+                        @media screen and (max-width: 680px) {
+                            margin-left: 0;
+                            font-size: 15px;
+                            img{
+                                width: 40px;
+                                display: block; 
+                                margin: 0 auto;
+                            } 
+
+                            span{
+                                padding-left: 5px;
+                                width: 100%;
+                                text-align: center;
+                            }
+                        }
+                    }
+
+                    h3{
+                        margin-top: 20px;   
+                        font-family: $myriad-b;
+                        font-size: 40px;
+                        color: #3f3b3a;
+                        @media screen and (max-width: 680px) {
+                            font-size: 20px;
+                            text-align: center;
+                            margin-top: 0;  
+                        }
+                    }
+
+                    & > p{
+                        width: 70%;
+                        font-family: $myriad-l;
+                        font-size: 16px;
+                        color: #3f3b3a;
+                        text-align: left;
+                        margin-top: 40px;
+                        @media screen and (max-width: 680px) {
+                            width: 100%;
+                            text-align: center;  
+                        }
+                    }
+
+                    .hide-cellphone{
+                        @media screen and (max-width: 680px) {
+                            display: block !important;
+                            width: 60%;
+                            margin: 30px auto;
+                        }
+                    }
+
+                    .hide-title{
+                        @media screen and (max-width: 680px) {
+                            display: block !important;
+                            img{
+                                width: 60%;
+                                margin: 30px auto;
+                            }
+                        }
+                    }
+
+                    .grid-inter{
+                        margin-top: 30px;
+                        margin-bottom: 80px;
+                        p{
+                            text-align: center;
+                            font-size: 80px;
+                            color: #e83f0b;
+                            font-family: $myriad-b; 
+                            small{
+                                font-size: 40px;
+                            }
+                        }
+
+                        div{
+                            font-family: $myriad-l;
+                            font-size: 14px;
+                            color: #3f3b3a;
+                            text-align: center;
+                        }
+
+                        @media screen and (max-width: 680px) {
+                            padding: 0;
+                            p{
+                                text-align: center;
+                                font-size: 30px;
+                                small{
+                                    font-size: 15px; 
+                                }
+                            }
+
+                            div{
+                                font-size: 10px;
+                            }
+
+                            img{
+                                width: 60px;
+                                padding: 0px 0 8px;
+                            }
+
+                            &.lastone{
+                                margin-top: 0px;
+                            }
+                        }
+                    }
+                }
+
+                .right{
+                    padding-top: 150px;
+                    img{
+                        width: 100%;
+                        vertical-align: middle;
+                        @media screen and (max-width: 680px){
+                            display: none;
+                        }
+                        
+                    }
+                }
+
+                @media screen and (max-width: 680px) {
+                    padding-top: 120px;
+                    .img-out{
+                        width: 200px;
+                        left: calc(50% - 100px);
+                        top: -40px;
+                    }
+
+                    .img-out-two{
+                        width: 140px;
+                        margin-top: -55px;
+                        right: -10px;
+                        // left: calc(50% - 100px);
+                        // top: -40px;
+                    }
+                }
+            }
+        }
     }
 }
 
