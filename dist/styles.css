@@ -1310,6 +1310,73 @@ strong {
           margin-top: -55px;
           right: -10px; } }
 
+.supercont__zf5z {
+  margin-top: 50px; }
+  .supercont__zf5z .section__1 {
+    position: relative; }
+    .supercont__zf5z .section__1 .bg_color {
+      position: absolute;
+      top: 0;
+      width: 100%; }
+      .supercont__zf5z .section__1 .bg_color .purple {
+        background-color: #414a9d;
+        height: 800px; }
+        .supercont__zf5z .section__1 .bg_color .purple:before {
+          content: '';
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 100px 1270px 0 0;
+          border-color: #414a9d transparent transparent transparent;
+          position: absolute;
+          bottom: -100px;
+          left: 0; }
+      .supercont__zf5z .section__1 .bg_color .white {
+        background-color: #fff;
+        height: 800px; }
+    .supercont__zf5z .section__1 .center .cont_section1 .left {
+      padding: 50px 0 0 50px; }
+      .supercont__zf5z .section__1 .center .cont_section1 .left .logo-asus {
+        margin-bottom: 100px; }
+        .supercont__zf5z .section__1 .center .cont_section1 .left .logo-asus img {
+          width: 150px; }
+      .supercont__zf5z .section__1 .center .cont_section1 .left .cont-title img {
+        width: 50px;
+        display: block;
+        margin: 0 auto; }
+      .supercont__zf5z .section__1 .center .cont_section1 .left .cont-title h2 {
+        font-family: "Myriad Pro Bold";
+        font-size: 32px;
+        text-align: center;
+        color: #fff;
+        margin-top: 10px; }
+      .supercont__zf5z .section__1 .center .cont_section1 .left > p {
+        font-family: "Myriad Pro Light";
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        width: 650px;
+        display: block;
+        margin: 30px auto; }
+      .supercont__zf5z .section__1 .center .cont_section1 .left .grid-inter {
+        margin-top: 100px; }
+        .supercont__zf5z .section__1 .center .cont_section1 .left .grid-inter img {
+          display: block;
+          width: 50px;
+          margin: 0 auto; }
+        .supercont__zf5z .section__1 .center .cont_section1 .left .grid-inter .sub-text {
+          text-align: center;
+          color: #fff;
+          font-family: "Myriad Pro Light";
+          font-size: 15px;
+          margin-top: 10px; }
+    .supercont__zf5z .section__1 .center .cont_section1 .right {
+      padding-top: 50px; }
+      .supercont__zf5z .section__1 .center .cont_section1 .right img {
+        margin-left: -50px;
+        width: 350px;
+        height: auto; }
+
 @media (max-width: 768px) {
   .wrapper, .center {
     min-width: initial !important; }

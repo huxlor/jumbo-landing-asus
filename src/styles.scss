@@ -931,6 +931,104 @@ strong{
     }
 }
 
+.supercont__zf5z{
+    margin-top: 50px;
+    .section__1{
+        position: relative;
+        .bg_color{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            .purple{
+                background-color: #414a9d;
+                height: 800px;
+                &:before{
+                    content: '';
+                    width: 0;
+                    height: 0;
+                    border-style: solid;
+                    border-width: 100px 1270px 0 0;
+                    border-color: #414a9d transparent transparent transparent;
+                    position: absolute;
+                    bottom: -100px;
+                    left: 0; 
+                }
+            }
+
+            .white{
+                background-color: #fff;
+                height: 800px;
+            }
+        }
+
+        .center{
+            .cont_section1{
+                .left{
+                    padding: 50px 0 0 50px;
+                    .logo-asus{
+                        margin-bottom: 100px;
+                        img{
+                            width: 150px;
+                        }
+                    }
+
+                    .cont-title{
+                        img{
+                            width: 50px;
+                            display: block;
+                            margin: 0 auto
+                        }
+
+                        h2{
+                            font-family: $myriad-b;
+                            font-size: 32px;
+                            text-align: center;
+                            color: #fff;
+                            margin-top: 10px;
+                        }
+                    }
+
+                    & > p{
+                        font-family: $myriad-l;
+                        color: #fff;
+                        font-size: 18px;
+                        text-align: center;
+                        width: 650px;
+                        display: block;
+                        margin: 30px auto;
+                    }
+
+                    .grid-inter{
+                        margin-top: 100px;
+                        img{
+                            display: block;
+                            width: 50px;
+                            margin: 0 auto;
+                        }
+
+                        .sub-text{
+                            text-align: center;
+                            color: #fff;
+                            font-family: $myriad-l;
+                            font-size: 15px;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+
+                .right{
+                    padding-top: 50px;
+                    img{
+                        margin-left: -50px;
+                        width: 350px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 @media (max-width: 768px) {
     .wrapper, .center{
