@@ -1321,16 +1321,6 @@ strong {
       .supercont__zf5z .section__1 .bg_color .purple {
         background-color: #414a9d;
         height: 800px; }
-        .supercont__zf5z .section__1 .bg_color .purple:before {
-          content: '';
-          width: 0;
-          height: 0;
-          border-style: solid;
-          border-width: 100px 1270px 0 0;
-          border-color: #414a9d transparent transparent transparent;
-          position: absolute;
-          bottom: -100px;
-          left: 0; }
       .supercont__zf5z .section__1 .bg_color .white {
         background-color: #fff;
         height: 800px; }
@@ -1376,6 +1366,49 @@ strong {
         margin-left: -50px;
         width: 350px;
         height: auto; }
+  .supercont__zf5z .section__2 .center .cont_section2 {
+    margin-top: 20%; }
+    .supercont__zf5z .section__2 .center .cont_section2 .left h2 {
+      font-size: 40px;
+      font-family: "Myriad Pro Light";
+      color: #000; }
+    .supercont__zf5z .section__2 .center .cont_section2 .left p {
+      margin-top: 30px;
+      font-size: 16px; }
+    .supercont__zf5z .section__2 .center .cont_section2 .right {
+      position: relative;
+      min-height: 180px; }
+      .supercont__zf5z .section__2 .center .cont_section2 .right img {
+        width: 800px;
+        height: auto;
+        float: right;
+        position: absolute;
+        top: 0;
+        right: 0; }
+    .supercont__zf5z .section__2 .center .cont_section2 .center {
+      min-width: initial; }
+      .supercont__zf5z .section__2 .center .cont_section2 .center .grid-inter p {
+        text-align: center;
+        font-size: 80px;
+        color: #444bb5;
+        font-family: "Myriad Pro Bold"; }
+        .supercont__zf5z .section__2 .center .cont_section2 .center .grid-inter p small {
+          font-size: 40px; }
+      .supercont__zf5z .section__2 .center .cont_section2 .center .grid-inter div {
+        font-family: "Myriad Pro Light";
+        font-size: 14px;
+        color: #3f3b3a;
+        text-align: center; }
+      @media screen and (max-width: 680px) {
+        .supercont__zf5z .section__2 .center .cont_section2 .center .grid-inter {
+          padding: 0; }
+          .supercont__zf5z .section__2 .center .cont_section2 .center .grid-inter p {
+            text-align: center;
+            font-size: 30px; }
+            .supercont__zf5z .section__2 .center .cont_section2 .center .grid-inter p small {
+              font-size: 15px; }
+          .supercont__zf5z .section__2 .center .cont_section2 .center .grid-inter div {
+            font-size: 10px; } }
 
 @media (max-width: 768px) {
   .wrapper, .center {
