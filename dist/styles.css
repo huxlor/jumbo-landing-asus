@@ -1320,10 +1320,31 @@ strong {
       width: 100%; }
       .supercont__zf5z .section__1 .bg_color .purple {
         background-color: #414a9d;
-        height: 800px; }
+        height: 800px;
+        position: relative; }
+        .supercont__zf5z .section__1 .bg_color .purple:before {
+          content: '';
+          width: calc(100% + 5px);
+          height: 100px;
+          background-image: url(4708a53a974076ae1819798c82bd974a.png);
+          background-size: 100% auto;
+          position: absolute;
+          bottom: -99px;
+          left: -3px;
+          background-repeat: no-repeat; }
+        @media screen and (max-width: 680px) {
+          .supercont__zf5z .section__1 .bg_color .purple {
+            height: 580px; }
+            .supercont__zf5z .section__1 .bg_color .purple:before {
+              left: 0px; } }
       .supercont__zf5z .section__1 .bg_color .white {
         background-color: #fff;
         height: 800px; }
+    .supercont__zf5z .section__1 .center .cont_section1 .black_logo {
+      display: none; }
+      @media screen and (max-width: 680px) {
+        .supercont__zf5z .section__1 .center .cont_section1 .black_logo {
+          display: block; } }
     .supercont__zf5z .section__1 .center .cont_section1 .left {
       padding: 50px 0 0 50px; }
       .supercont__zf5z .section__1 .center .cont_section1 .left .logo-asus {
@@ -1360,14 +1381,73 @@ strong {
           font-family: "Myriad Pro Light";
           font-size: 15px;
           margin-top: 10px; }
+      @media screen and (max-width: 680px) {
+        .supercont__zf5z .section__1 .center .cont_section1 .left {
+          padding: 50px 0 0 15px; }
+          .supercont__zf5z .section__1 .center .cont_section1 .left .logo-asus {
+            margin-bottom: 60px; }
+            .supercont__zf5z .section__1 .center .cont_section1 .left .logo-asus img {
+              display: none; }
+          .supercont__zf5z .section__1 .center .cont_section1 .left .cont-title img {
+            width: 30px; }
+          .supercont__zf5z .section__1 .center .cont_section1 .left .cont-title h2 {
+            font-size: 22px;
+            margin-top: 10px;
+            padding: 0 30px;
+            line-height: 1; }
+          .supercont__zf5z .section__1 .center .cont_section1 .left > p {
+            font-size: 14px;
+            width: auto;
+            display: block;
+            margin: 30px auto;
+            padding: 0 30px; }
+          .supercont__zf5z .section__1 .center .cont_section1 .left .grid-inter {
+            display: none; } }
     .supercont__zf5z .section__1 .center .cont_section1 .right {
       padding-top: 50px; }
-      .supercont__zf5z .section__1 .center .cont_section1 .right img {
+      .supercont__zf5z .section__1 .center .cont_section1 .right img.cellphone {
         margin-left: -50px;
         width: 350px;
         height: auto; }
+      @media screen and (max-width: 680px) {
+        .supercont__zf5z .section__1 .center .cont_section1 .right {
+          padding: 0;
+          min-height: 450px; }
+          .supercont__zf5z .section__1 .center .cont_section1 .right img.cellphone {
+            width: 150px;
+            margin-left: -20px; }
+          .supercont__zf5z .section__1 .center .cont_section1 .right img.black_logo {
+            width: 100px;
+            float: right;
+            margin-bottom: 30px; } }
+    .supercont__zf5z .section__1 .center .cont_section1 .mobile-grid {
+      display: none; }
+    .supercont__zf5z .section__1 .center .cont_section1 .mobile-grid.grid-inter {
+      margin-top: 0px; }
+      .supercont__zf5z .section__1 .center .cont_section1 .mobile-grid.grid-inter img {
+        display: block;
+        width: 50px;
+        margin: 0 auto; }
+      .supercont__zf5z .section__1 .center .cont_section1 .mobile-grid.grid-inter .sub-text {
+        text-align: center;
+        color: #fff;
+        font-family: "Myriad Pro Light";
+        font-size: 15px;
+        margin-top: 10px; }
+    @media screen and (max-width: 680px) {
+      .supercont__zf5z .section__1 .center .cont_section1 {
+        padding: 0; }
+        .supercont__zf5z .section__1 .center .cont_section1 .mobile-grid {
+          display: block; }
+          .supercont__zf5z .section__1 .center .cont_section1 .mobile-grid:last-child img {
+            -webkit-filter: contrast(0);
+            filter: contrast(0); }
+          .supercont__zf5z .section__1 .center .cont_section1 .mobile-grid:last-child .sub-text {
+            color: #000; }
+          .supercont__zf5z .section__1 .center .cont_section1 .mobile-grid .sub-text {
+            font-size: 12px !important; } }
   .supercont__zf5z .section__2 .center .cont_section2 {
-    margin-top: 20%; }
+    margin: 20% 0; }
     .supercont__zf5z .section__2 .center .cont_section2 .left h2 {
       font-size: 40px;
       font-family: "Myriad Pro Light";
@@ -1409,6 +1489,87 @@ strong {
               font-size: 15px; }
           .supercont__zf5z .section__2 .center .cont_section2 .center .grid-inter div {
             font-size: 10px; } }
+    @media screen and (max-width: 680px) {
+      .supercont__zf5z .section__2 .center .cont_section2 .left h2 {
+        font-size: 30px;
+        text-align: center; }
+      .supercont__zf5z .section__2 .center .cont_section2 .left p {
+        text-align: center;
+        font-size: 15px; }
+      .supercont__zf5z .section__2 .center .cont_section2 .right {
+        margin-top: 10px;
+        min-height: 180px; }
+        .supercont__zf5z .section__2 .center .cont_section2 .right img {
+          width: 100%; } }
+  .supercont__zf5z .section__3 {
+    background-color: #ff9900; }
+    .supercont__zf5z .section__3:before {
+      content: '';
+      width: 100%;
+      height: 180px;
+      background-image: url(83470981a0d6fa87ab534a20c619b4df.png);
+      background-size: auto 100%;
+      position: absolute;
+      top: -178px;
+      left: 0;
+      background-repeat: no-repeat; }
+    .supercont__zf5z .section__3 .center .cont_section3 .left {
+      position: relative; }
+      .supercont__zf5z .section__3 .center .cont_section3 .left > div {
+        position: absolute;
+        font-size: 44px;
+        color: #fff;
+        text-align: center;
+        font-family: "Myriad Pro";
+        line-height: 1;
+        float: left; }
+        .supercont__zf5z .section__3 .center .cont_section3 .left > div span {
+          font-size: 100px; }
+      .supercont__zf5z .section__3 .center .cont_section3 .left img {
+        width: 660px;
+        height: auto; }
+    .supercont__zf5z .section__3 .center .cont_section3 .right {
+      padding-top: 150px; }
+      .supercont__zf5z .section__3 .center .cont_section3 .right .cont_title {
+        width: 350px; }
+        .supercont__zf5z .section__3 .center .cont_section3 .right .cont_title > div {
+          text-align: center;
+          font-family: "Myriad Pro Light";
+          color: #fff;
+          font-size: 40px;
+          margin-bottom: 20px; }
+        .supercont__zf5z .section__3 .center .cont_section3 .right .cont_title img {
+          width: 300px;
+          height: auto;
+          display: block;
+          margin: 0 auto; }
+    @media screen and (max-width: 680px) {
+      .supercont__zf5z .section__3:before {
+        content: '';
+        width: 100%;
+        height: 180px;
+        background-image: url(83470981a0d6fa87ab534a20c619b4df.png);
+        background-size: auto 100%;
+        position: absolute;
+        top: -39px;
+        left: 0;
+        background-repeat: no-repeat; }
+      .supercont__zf5z .section__3 .cont_section3 .left > div {
+        font-size: 20px !important; }
+        .supercont__zf5z .section__3 .cont_section3 .left > div span {
+          font-size: 50px !important; }
+      .supercont__zf5z .section__3 .cont_section3 .left img {
+        width: 100% !important;
+        margin-top: 30px; }
+      .supercont__zf5z .section__3 .cont_section3 .right {
+        padding-top: 0 !important;
+        margin-bottom: 30px; }
+        .supercont__zf5z .section__3 .cont_section3 .right .cont_title {
+          width: 100% !important; }
+          .supercont__zf5z .section__3 .cont_section3 .right .cont_title > div {
+            font-size: 25px !important; }
+          .supercont__zf5z .section__3 .cont_section3 .right .cont_title img {
+            width: 120px !important; } }
 
 @media (max-width: 768px) {
   .wrapper, .center {
