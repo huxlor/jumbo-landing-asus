@@ -5,7 +5,7 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'main.js'
+        filename: 'main-ldg-asus.js'
     },
     module: {
         rules: [{
@@ -29,7 +29,10 @@ module.exports = {
             test: /\.(jpg|png|svg)$/,
             use: [
                 {
-                    loader: 'file-loader'
+                    loader: 'file-loader',
+                    options: {
+                        name: '[name].[ext]'
+                    }
                 }
             ]
         }
@@ -37,7 +40,7 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: 'styles.css',
+            filename: 'styles-ldg-asus.css',
             chunkFilename: 'id.css'
         })
     ]
