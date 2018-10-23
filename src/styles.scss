@@ -63,6 +63,7 @@ strong{
                     padding-right: 25px;
                     img{
                         float: right;
+                        width: 150px;
                     }
                 }
 
@@ -71,22 +72,22 @@ strong{
                     .procesadores{
                         font-family: $myriad-b;
                         color: $white;
-                        font-size: 20px;
+                        font-size: 18px;
                     }
 
                     a{
-                        width: 290px;
+                        width: 150px;
                         padding: 15px 0;
-                        border: solid 4px $white;
-                        border-radius: 20px;
+                        border: solid 3px $white;
+                        border-radius: 10px;
                         font-family: $myriad-b;
-                        font-size: 32px;
+                        font-size: 22px;
                         color: $white;
                         margin: 35px auto 0;
                     }
 
                     & > img{
-                        width: 95%;
+                        width: 85%;
                         display: block;
                         margin: 0 auto;
                     }
@@ -94,9 +95,10 @@ strong{
 
                 .intel-logo{
                     position: absolute;
-                    right: 0px;
+                    right: 40px;
                     bottom: -60px;
-                    padding-right: 25px;
+                    padding-right: 0;
+                    width: 200px;
                 }
 
                 .fix-height{
@@ -134,21 +136,21 @@ strong{
                     }
 
                     .selfie-pro-img{
-                        max-width: 600px;
+                        max-width: 500px;
                     }
 
                     .four-cameras-img{
                         margin-top: 35px;
-                        max-width: 550px;
+                        max-width: 450px;
                     }
                 }
 
                 .cont_characteristics{
-                    margin-top: 85px;
+                    margin-top: 55px;
                     .minicont_caract{
                         display: inline-block;
                         width: 100%;
-                        padding-left: 12%;
+                        padding-left: 20%;
                         margin-bottom: 45px;
                         div{
                             display: inline-block;
@@ -156,15 +158,22 @@ strong{
 
                         p{
                             font-family: $myriad;
-                            font-size: 32px;
+                            font-size: 22px;
                             padding-left: 15px;
                         }
 
                         .icons{
-                            width: 130px;
+                            width: 90px;
                             img{
                                 display: block;
                                 margin: 0 auto;
+                                width: 50px;
+                            }
+                        }
+
+                        .icons-m{
+                            img{
+                                width: 85px;
                             }
                         }
                     }
@@ -177,6 +186,7 @@ strong{
                 padding-top: 50px;
                 img{
                     float: right;
+                    width: 150px;
                     @media (max-width: 400px) {
                         display: none;
                     }
@@ -184,13 +194,13 @@ strong{
             }
 
             a{
-                width: 290px;
+                width: 190px;
                 text-align: center;
                 padding: 15px 0;
-                border: solid 4px #000;
-                border-radius: 20px;
+                border: solid 3px #000;
+                border-radius: 10px;
                 font-family: $myriad-b;
-                font-size: 32px;
+                font-size: 22px;
                 color: #000;
                 margin: 0 auto 35px;
             }
@@ -204,21 +214,21 @@ strong{
                 padding-top: 70px;
                 h3{
                     font-family: $myriad-b;
-                    font-size: 30px;
+                    font-size: 25px;
                     margin-bottom: 5px; 
                 }
 
                 ul{
                     padding-left: 35px;
                     h4{
-                        font-size: 26px;
+                        font-size: 20px;
                         font-family: $myriad;
                         margin-bottom: 5px;
                     }
 
                     li{
                         padding-left: 30px;
-                        font-size: 22px; 
+                        font-size: 18px; 
                         font-family: $myriad;
                         p{
                             padding-left: 25px;
@@ -242,7 +252,7 @@ strong{
                         color: $white;
                         text-align: center;
                         font-family: $myriad-b;
-                        font-size: 30px; 
+                        font-size: 25px; 
                     }
                 }
 
@@ -284,7 +294,7 @@ strong{
                     color: $white;
                     text-align: center;
                     font-family: $myriad-b;
-                    font-size: 30px;  
+                    font-size: 25px;  
                 }
             }
 
