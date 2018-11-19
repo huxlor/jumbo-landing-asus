@@ -20,6 +20,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Myriad Pro Light';
+    src: url('../fonts/MyriadPro-Light.eot');
+    src: url('../fonts/MyriadPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MyriadPro-Light.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Light.woff') format('woff'),
+        url('../fonts/MyriadPro-Light.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
 $myriad: 'Myriad Pro';
 $myriad-l: 'Myriad Pro Light';
 $myriad-b: 'Myriad Pro Bold'; 
@@ -69,6 +80,13 @@ strong{
 
                 .label{
                     padding-top: 40px;
+                    .new-title{
+                        font-family: $myriad-l;
+                        color: $white;
+                        font-size: 22px;
+                        margin-bottom: 10px;
+                    }
+
                     .procesadores{
                         font-family: $myriad-b;
                         color: $white;
@@ -116,14 +134,14 @@ strong{
 
     .cont__slide2{
         position: relative;
-        background-image: url('../images/slide2-bg-asus.jpg');
+        background-image: url('../images/slide2-bg-asus-v2.jpg');
         background-repeat: no-repeat;
         background-size: 100%;
         @media screen and (min-width: 769px) {
             background-size: auto 100%;
         }
 
-        @media screen and (min-width: 1800px) { 
+        @media screen and (min-width: 1400px) { 
             background-size: 100% auto;
         }
         .selfie-pro{
@@ -132,7 +150,7 @@ strong{
                 .cont_title{
                     img{
                         display: block;
-                        margin: 0 auto;
+                        margin: 0 auto; 
                     }
 
                     .selfie-pro-img{
@@ -273,11 +291,14 @@ strong{
                 .promo-right{
                     padding-left: 5px;
                     @media (max-width: 450px) {
-                        padding-left: 0px;
+                        padding-left: 0px;  
                     }
                     img{
-                        width: 100%;
-                        height: auto;
+                        width: calc(100% + 5px); 
+                        height: auto; 
+                        @media (max-width: 991px) {
+                            width: 100%;  
+                        }
                     }
                 }
             }
@@ -328,6 +349,10 @@ strong{
                     @media screen and (max-width: 991px) {
                         height: auto;
                     }
+
+                    @media screen and (max-width: 1282px) and (min-width: 992px){
+                        height: 500px;
+                    }
                     img{
                         height: auto;
                         width: 100%;
@@ -363,6 +388,10 @@ strong{
                     @media screen and (max-width: 991px) {
                         height: auto;
                     }
+
+                    @media screen and (max-width: 1282px) and (min-width: 992px){
+                        height: 500px;
+                    }
                     h2{
                         margin-top: 50px;
                         img{
@@ -381,9 +410,19 @@ strong{
                             margin: 0 auto;
                         }
 
+                        .pc-especial{
+                            width: 250px;
+                        }
+
                         .intel{
                             position: absolute;
                             width: 50px;
+                            display: none;
+                        }
+                        @media screen and (max-width: 1282px) and (min-width: 992px){
+                            .pc{
+                                width: 200px;
+                            }
                         }
                     }
 
@@ -613,6 +652,14 @@ strong{
                             float: left;
                         }
                     }
+
+                    @media screen and (max-width: 1200px) and (min-width: 681px){
+                        overflow-x: hidden;
+                        height: 950px;
+                        img{
+                            margin-right: -500px;  
+                        }
+                    }
                 }
             }
         }
@@ -763,6 +810,11 @@ strong{
                     top: -85px; 
                     width: 600px;
                     left: calc(50% - 300px); 
+                    @media screen and (max-width: 1200px) and (min-width: 681px){
+                        top: 40px; 
+                        width: 400px;
+                        left: calc(50% - 200px); 
+                    }
                 }
 
                 .img-out-two{
@@ -771,6 +823,9 @@ strong{
                     margin-top: -260px;
                     right: 80px;
                     z-index: 100; 
+                    @media screen and (max-width: 1200px) and (min-width: 681px){
+                        display: none;
+                    }
                 }
 
                 .left{
@@ -869,9 +924,13 @@ strong{
                             text-align: center;
                             font-size: 80px;
                             color: #e83f0b;
-                            font-family: $myriad-b; 
+                            font-family: $myriad-b;  
                             small{
                                 font-size: 40px;
+                            }
+
+                            @media screen and (max-width: 1200px) and (min-width: 681px){
+                                font-size: 50px;
                             }
                         }
 
@@ -911,12 +970,24 @@ strong{
                 .right{
                     padding-top: 150px;
                     img{
-                        width: 100%;
+                        width: 90%;
                         vertical-align: middle;
+                        margin: 0 auto;
                         @media screen and (max-width: 680px){
                             display: none;
                         }
                         
+                    }
+
+                    a.call-btn-spro{
+                        background-color: #e83f0b;
+                        color: #fff;
+                        width: 200px;
+                        padding: 10px;
+                        text-align: center;
+                        border-radius: 5px;
+                        font-family: $myriad-b;  
+                        margin: 30px auto;
                     }
                 }
 
@@ -1359,7 +1430,7 @@ strong{
     }
 
     .row{
-        margin: 0;
+        margin: 0; 
     }
 
     .container{
@@ -1384,7 +1455,7 @@ strong{
                     }
 
                     .label {
-                        padding-top: 320px;
+                        padding-top: 250px;
                         img {
                             width: 290px;
                         }
@@ -1443,7 +1514,7 @@ strong{
 
                             div{
                                 img{
-                                    width: 100%;
+                                    width: 100% !important; 
                                 }
                             }
 
@@ -1498,6 +1569,7 @@ body.landing-asus{
     .product-item{
         background-color: #fff;
         padding: 20px; 
+        min-height: 550px;
     }
     .product-item__cart-amount{
         background-color: #fff;
