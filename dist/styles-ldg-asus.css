@@ -821,6 +821,34 @@ strong {
       font-size: 22px;
       color: #000;
       margin: 0 auto 35px; }
+    .supercont__asus .cont__slide2.version2 {
+      background-image: url(slide2-bg-asus-v3.jpg); }
+      .supercont__asus .cont__slide2.version2 .selfie-pro {
+        position: relative; }
+        .supercont__asus .cont__slide2.version2 .selfie-pro .left .four-cameras-img {
+          margin-top: 10px; }
+        .supercont__asus .cont__slide2.version2 .selfie-pro .left .cont_characteristics {
+          margin-bottom: 125px; }
+          @media (max-width: 1440px) {
+            .supercont__asus .cont__slide2.version2 .selfie-pro .left .cont_characteristics {
+              margin-bottom: 55px; } }
+          .supercont__asus .cont__slide2.version2 .selfie-pro .left .cont_characteristics .minicont_caract {
+            padding-left: 0; }
+            .supercont__asus .cont__slide2.version2 .selfie-pro .left .cont_characteristics .minicont_caract div {
+              display: block;
+              text-align: center;
+              margin: 0 auto; }
+            .supercont__asus .cont__slide2.version2 .selfie-pro .left .cont_characteristics .minicont_caract .icons-m img {
+              margin: 0 auto; }
+            .supercont__asus .cont__slide2.version2 .selfie-pro .left .cont_characteristics .minicont_caract p {
+              color: #fff;
+              margin-top: 10px; }
+        .supercont__asus .cont__slide2.version2 .selfie-pro .right img {
+          position: absolute;
+          right: 0; }
+        .supercont__asus .cont__slide2.version2 .selfie-pro a {
+          color: #fff;
+          border: solid 3px #fff; }
   .supercont__asus .cont__slide3 .promotion .left {
     padding-left: 35px;
     padding-top: 70px; }

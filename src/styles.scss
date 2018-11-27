@@ -223,6 +223,57 @@ strong{
                 margin: 0 auto 35px;
             }
         }
+
+        &.version2{
+            background-image: url('../images/slide2-bg-asus-v3.jpg');
+
+            .selfie-pro{
+                position: relative;
+                .left{
+                    .four-cameras-img{
+                        margin-top: 10px;
+                    }
+
+                    .cont_characteristics{
+                        margin-bottom: 125px;
+                        @media (max-width: 1440px) {
+                            margin-bottom: 55px;
+                        }
+                        .minicont_caract{
+                            padding-left: 0; 
+                            div{
+                                display: block;
+                                text-align: center;
+                                margin: 0 auto;
+                            }
+
+                            .icons-m{
+                                img{
+                                    margin: 0 auto;
+                                }
+                            }
+
+                            p{
+                                color: #fff;
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+                }
+
+                .right{
+                    img{
+                        position: absolute;
+                        right: 0;
+                    }
+                }
+
+                a{
+                    color: #fff;
+                    border: solid 3px #fff;
+                }
+            }
+        }
     }
 
     .cont__slide3{
