@@ -1631,6 +1631,15 @@ strong {
           height: auto;
           display: block;
           margin: 0 auto; }
+        .supercont__zf5z .section__3 .center .cont_section3 .right .cont_title a {
+          background-color: #fff;
+          color: #ff9900;
+          width: 200px;
+          padding: 10px;
+          text-align: center;
+          border-radius: 5px;
+          font-family: "Myriad Pro Bold";
+          margin: 30px auto; }
     @media screen and (max-width: 680px) {
       .supercont__zf5z .section__3:before {
         content: '';
