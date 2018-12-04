@@ -1632,9 +1632,12 @@ body.landing-asus{
         background-color: #fff;
         padding: 20px; 
         min-height: 550px;
+        @media (max-width: 760px) {
+            min-height: initial !important;
+        }
     }
     .product-item__cart-amount{
-        background-color: #fff;
+        background-color: #fff; 
     }
     .loader{
         display: none;

@@ -1761,6 +1761,9 @@ body.landing-asus .product-item {
   background-color: #fff;
   padding: 20px;
   min-height: 550px; }
+  @media (max-width: 760px) {
+    body.landing-asus .product-item {
+      min-height: initial !important; } }
 
 body.landing-asus .product-item__cart-amount {
   background-color: #fff; }
