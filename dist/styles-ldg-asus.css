@@ -703,61 +703,65 @@ strong {
   min-height: 1000px; }
   .supercont__asus .cont__slide1 {
     position: relative;
-    background-image: url(slide1-bg-asus.jpg);
+    background-image: url("https://www.tiendasjumbo.co/arquivos/bnr-asus-vivo-book2.jpg");
     background-repeat: no-repeat;
-    background-size: auto 100%; }
+    background-size: cover;
+    background-position: center; }
     .supercont__asus .cont__slide1 img.bg_slide1 {
       width: 100%;
       position: absolute; }
     .supercont__asus .cont__slide1 .vivoBook {
       text-align: center;
-      padding-bottom: 250px; }
-      .supercont__asus .cont__slide1 .vivoBook .right {
+      padding-bottom: 116px; }
+      .supercont__asus .cont__slide1 .vivoBook .left {
         position: relative; }
-        .supercont__asus .cont__slide1 .vivoBook .right .logo_asus {
+        .supercont__asus .cont__slide1 .vivoBook .left .logo_asus {
           width: 100%;
           height: 55px;
           margin-top: 20px;
-          padding-right: 25px; }
-          .supercont__asus .cont__slide1 .vivoBook .right .logo_asus img {
-            float: right;
+          padding-right: 20px; }
+          .supercont__asus .cont__slide1 .vivoBook .left .logo_asus img {
+            float: left;
             width: 150px; }
-        .supercont__asus .cont__slide1 .vivoBook .right .label {
+        .supercont__asus .cont__slide1 .vivoBook .left .label {
           padding-top: 40px; }
-          .supercont__asus .cont__slide1 .vivoBook .right .label .new-title {
+          .supercont__asus .cont__slide1 .vivoBook .left .label .new-title {
             font-family: "Myriad Pro Light";
             color: #fff;
             font-size: 22px;
             margin-bottom: 10px; }
-          .supercont__asus .cont__slide1 .vivoBook .right .label .procesadores {
+          .supercont__asus .cont__slide1 .vivoBook .left .label .procesadores {
             font-family: "Myriad Pro Bold";
             color: #fff;
-            font-size: 18px; }
-          .supercont__asus .cont__slide1 .vivoBook .right .label a {
-            width: 150px;
-            padding: 15px 0;
-            border: solid 3px #fff;
+            font-size: 18px;
+            margin-top: 20px; }
+          .supercont__asus .cont__slide1 .vivoBook .left .label a {
+            font-family: "Myriad Pro Bold";
+            width: 250px;
+            padding: 10px 0;
+            border: solid 3px #fcea10;
             border-radius: 10px;
-            font-family: "Myriad Pro Bold";
             font-size: 22px;
-            color: #fff;
-            margin: 35px auto 0; }
-          .supercont__asus .cont__slide1 .vivoBook .right .label > img {
-            width: 85%;
+            color: #fcea10;
+            margin: 50px auto 0; }
+          .supercont__asus .cont__slide1 .vivoBook .left .label > img {
             display: block;
-            margin: 0 auto; }
-        .supercont__asus .cont__slide1 .vivoBook .right .intel-logo {
+            margin: 0 auto;
+            width: 35%;
+            border-bottom: solid 2px #fff;
+            padding-bottom: 15px; }
+        .supercont__asus .cont__slide1 .vivoBook .left .intel-logo {
           position: absolute;
           right: 40px;
-          bottom: -60px;
+          bottom: -70px;
           padding-right: 0;
-          width: 200px; }
-        .supercont__asus .cont__slide1 .vivoBook .right .fix-height {
+          width: 150px; }
+        .supercont__asus .cont__slide1 .vivoBook .left .fix-height {
           height: 230px;
           width: 100%; }
     @media screen and (min-width: 1800px) {
       .supercont__asus .cont__slide1 {
-        background-image: url(slide1-bg-asus.jpg);
+        background-image: url("https://jumbocolombiafood.vteximg.com.br/arquivos/bnr-asus-vivo-book2.jpg");
         background-size: 100% auto; } }
   .supercont__asus .cont__slide2 {
     position: relative;
@@ -776,7 +780,7 @@ strong {
         display: block;
         margin: 0 auto; }
       .supercont__asus .cont__slide2 .selfie-pro .left .cont_title .selfie-pro-img {
-        max-width: 500px; }
+        max-width: 330px; }
       .supercont__asus .cont__slide2 .selfie-pro .left .cont_title .four-cameras-img {
         margin-top: 35px;
         max-width: 450px; }
@@ -798,7 +802,7 @@ strong {
             .supercont__asus .cont__slide2 .selfie-pro .left .cont_characteristics .minicont_caract .icons img {
               display: block;
               margin: 0 auto;
-              width: 50px; }
+              width: 70px; }
           .supercont__asus .cont__slide2 .selfie-pro .left .cont_characteristics .minicont_caract .icons-m img {
             width: 85px; }
     .supercont__asus .cont__slide2 .selfie-pro .right {
@@ -822,22 +826,31 @@ strong {
       color: #000;
       margin: 0 auto 35px; }
     .supercont__asus .cont__slide2.version2 {
-      background-image: url(slide2-bg-asus-v3.jpg); }
+      background-image: url("https://www.tiendasjumbo.co/arquivos/bnr-asus-zenfone.jpg");
+      background-position: center;
+      background-size: cover; }
       .supercont__asus .cont__slide2.version2 .selfie-pro {
         position: relative; }
         .supercont__asus .cont__slide2.version2 .selfie-pro .left .four-cameras-img {
           margin-top: 10px; }
         .supercont__asus .cont__slide2.version2 .selfie-pro .left .cont_characteristics {
-          margin-bottom: 125px; }
+          margin-bottom: 40px;
+          margin-top: 60px;
+          display: flex;
+          align-items: center; }
           @media (max-width: 1440px) {
             .supercont__asus .cont__slide2.version2 .selfie-pro .left .cont_characteristics {
               margin-bottom: 55px; } }
+          .supercont__asus .cont__slide2.version2 .selfie-pro .left .cont_characteristics .icons-right {
+            padding-left: 8rem; }
           .supercont__asus .cont__slide2.version2 .selfie-pro .left .cont_characteristics .minicont_caract {
-            padding-left: 0; }
+            padding-left: 0;
+            display: inline-flex; }
             .supercont__asus .cont__slide2.version2 .selfie-pro .left .cont_characteristics .minicont_caract div {
               display: block;
-              text-align: center;
-              margin: 0 auto; }
+              align-self: center;
+              text-align: left;
+              margin: 0; }
             .supercont__asus .cont__slide2.version2 .selfie-pro .left .cont_characteristics .minicont_caract .icons-m img {
               margin: 0 auto; }
             .supercont__asus .cont__slide2.version2 .selfie-pro .left .cont_characteristics .minicont_caract p {
@@ -848,7 +861,8 @@ strong {
           right: 0; }
         .supercont__asus .cont__slide2.version2 .selfie-pro a {
           color: #fff;
-          border: solid 3px #fff; }
+          border: solid 3px #fff;
+          margin-bottom: 20px; }
   .supercont__asus .cont__slide3 .promotion .left {
     padding-left: 35px;
     padding-top: 70px; }
@@ -1676,56 +1690,56 @@ strong {
   .container {
     width: 100% !important; }
   .supercont__asus .cont__slide1 {
-    background-image: url(slide1-bg-asus-mobile.png);
-    background-size: cover; }
+    background-image: url(https://jumbocolombiafood.vteximg.com.br/arquivos/bnr-asus-vivo-book2.jpg);
+    background-size: cover;
+    background-position: center; }
     .supercont__asus .cont__slide1 .vivoBook {
       padding: 0;
       height: 550px; }
-      .supercont__asus .cont__slide1 .vivoBook .right .logo_asus img {
-        width: 150px;
-        height: auto;
-        filter: brightness(0%);
-        -webkit-filter: brightness(0%);
-        -moz-filter: brightness(0%); }
-      .supercont__asus .cont__slide1 .vivoBook .right .label {
-        padding-top: 250px; }
-        .supercont__asus .cont__slide1 .vivoBook .right .label img {
-          width: 290px; }
-        .supercont__asus .cont__slide1 .vivoBook .right .label .procesadores {
-          font-size: 16px; }
-        .supercont__asus .cont__slide1 .vivoBook .right .label a {
-          width: 160px;
-          font-size: 22px;
-          border: solid 2px;
-          margin-top: 10px;
-          padding: 10px 0;
-          border-radius: 12px; }
-      .supercont__asus .cont__slide1 .vivoBook .right .intel-logo {
+      .supercont__asus .cont__slide1 .vivoBook .left .logo_asus img {
         width: 120px;
-        top: 45%;
-        display: none; }
+        height: auto; }
+      .supercont__asus .cont__slide1 .vivoBook .left .label {
+        padding-top: 60px; }
+        .supercont__asus .cont__slide1 .vivoBook .left .label img {
+          width: 70%; }
+        .supercont__asus .cont__slide1 .vivoBook .left .label .procesadores {
+          font-size: 15px; }
+        .supercont__asus .cont__slide1 .vivoBook .left .label a {
+          width: 200px;
+          font-size: 17px;
+          padding: 7px 0; }
+      .supercont__asus .cont__slide1 .vivoBook .left .intel-logo {
+        width: 130px;
+        bottom: -120px; }
   .supercont__asus .cont__slide2 {
     background-size: auto 100%; }
+    .supercont__asus .cont__slide2.version2 {
+      background-position: initial; }
+      .supercont__asus .cont__slide2.version2 .selfie-pro .left .cont_characteristics .icons-right {
+        padding-left: 15px; }
     .supercont__asus .cont__slide2 .selfie-pro {
       position: relative; }
       .supercont__asus .cont__slide2 .selfie-pro .left {
-        padding: 18px 0 0; }
+        padding: 45px 0 0; }
         .supercont__asus .cont__slide2 .selfie-pro .left .cont_title {
           padding-left: 40px; }
           .supercont__asus .cont__slide2 .selfie-pro .left .cont_title .selfie-pro-img {
-            max-width: 200px;
-            margin: 0; }
+            max-width: 240px;
+            margin: auto; }
           .supercont__asus .cont__slide2 .selfie-pro .left .cont_title .four-cameras-img {
             max-width: 170px;
             margin: 0;
             margin-top: 15px;
             margin-left: 12px; }
         .supercont__asus .cont__slide2 .selfie-pro .left .cont_characteristics {
-          margin-top: 20px; }
+          margin-top: 20px;
+          flex-wrap: wrap;
+          padding-left: 50px; }
           .supercont__asus .cont__slide2 .selfie-pro .left .cont_characteristics .minicont_caract {
             margin-bottom: 15px; }
             .supercont__asus .cont__slide2 .selfie-pro .left .cont_characteristics .minicont_caract p {
-              font-size: 13px; }
+              font-size: 20px; }
             .supercont__asus .cont__slide2 .selfie-pro .left .cont_characteristics .minicont_caract div img {
               width: 100% !important; }
             .supercont__asus .cont__slide2 .selfie-pro .left .cont_characteristics .minicont_caract .icons, .supercont__asus .cont__slide2 .selfie-pro .left .cont_characteristics .minicont_caract .icons-m {
@@ -1736,7 +1750,7 @@ strong {
         right: 0;
         padding: 15px; }
         .supercont__asus .cont__slide2 .selfie-pro .right img {
-          width: 65px; }
+          width: 90px; }
       .supercont__asus .cont__slide2 .selfie-pro a {
         width: 132px;
         font-size: 13px;
