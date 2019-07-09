@@ -158,7 +158,7 @@ strong{
                     }
 
                     .selfie-pro-img{
-                        max-width: 330px;
+                        max-width: 350px;
                     }
 
                     .four-cameras-img{
@@ -173,7 +173,7 @@ strong{
                         display: inline-block;
                         width: 100%;
                         padding-left: 20%;
-                        margin-bottom: 45px;
+                        margin-bottom: 30px;
                         div{
                             display: inline-block;
                         }
@@ -189,7 +189,7 @@ strong{
                             img{
                                 display: block;
                                 margin: 0 auto;
-                                width: 70px;
+                                width: 9solid 3px #0000px;
                             }
                         }
 
@@ -218,20 +218,23 @@ strong{
             a{
                 width: 190px;
                 text-align: center;
-                padding: 15px 0;
+                padding: 8px 0;
                 border: solid 3px #000;
                 border-radius: 10px;
                 font-family: $myriad-b;
-                font-size: 22px;
+                font-size: 20px;
                 color: #000;
                 margin: 0 auto 35px;
             }
         }
 
         &.version2{
-            background-image: url('https://www.tiendasjumbo.co/arquivos/bnr-asus-zenfone.jpg');
+            background-image: url('https://www.tiendasjumbo.co/arquivos/Banner-Desktop-Mini-Site-vivobook-ZFM2-JulZENFONE-MAX-M2.jpg');
             background-position: center;
             background-size: cover;
+            @media (max-width: 768px){
+                background-image: url('https://www.tiendasjumbo.co/arquivos/Mobile-Banner_ZENFONE-MAX-M2.jpg');
+            }
             .selfie-pro{
                 position: relative;
                 .left{
@@ -267,7 +270,7 @@ strong{
                             }
 
                             p{
-                                color: #fff;
+                                color: #000;
                                 margin-top: 10px;
                             }
                         }
@@ -282,9 +285,10 @@ strong{
                 }
 
                 a{
-                    color: #fff;
-                    border: solid 3px #fff;
-                    margin-bottom: 20px;
+                    color: #000;
+                    border: solid 3px #000;
+                    width: 90%;
+                    // margin-bottom: 20px;
                 }
             }
         }
@@ -1556,7 +1560,7 @@ strong{
         .cont__slide2 {
             background-size:  auto 100%;
             &.version2{
-                background-position: initial;
+                // background-position: initial;
                 .selfie-pro{
                     .left{
                         .cont_characteristics{
