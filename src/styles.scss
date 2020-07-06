@@ -53,7 +53,7 @@ strong{
     min-height: 1000px;
     .cont__slide1{
         position: relative;
-        background-image: url('https://www.tiendasjumbo.co/arquivos/bnr-asus-vivo-book2.jpg');
+        background-image: url('https://jumbocolombiafood.vteximg.com.br/arquivos/301019-banner-vivobook-01.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -63,7 +63,7 @@ strong{
         }
         .vivoBook{
             text-align: center;
-            padding-bottom: 116px;
+            padding-bottom: 85px;
             // .left{}
 
             .left{
@@ -89,29 +89,72 @@ strong{
                     }
 
                     .procesadores{
-                        font-family: $myriad-b;
+                        // font-family: $myriad-b;
                         color: $white;
-                        font-size: 18px;
-                        margin-top: 20px;
+                        font-size: 25px;
+                        margin-top: 35px;
+                        font-weight: 300;
+                        @media screen and (max-width: 1400px){
+                              font-size: 18px;      
+                        }
+                        @media screen and (max-width: 1200px){
+                            font-size: 14px;      
+                      }
+                        .inline-especificaciones{
+                            display: inline-flex;
+                            align-items: center;
+                            img{
+                                max-width: 40px;
+                                max-height: 30px;
+                            }
+                            p{
+                                margin-right: 15px;
+                            }
+                        }
                     }
 
                     a{
-                        font-family: $myriad-b;
+                        font-family: $myriad;
                         width: 250px;
-                        padding: 10px 0;
-                        border: solid 3px #fcea10;
+                        padding: 5px 0;
+                        border: solid 2px #fcea10;
                         border-radius: 10px;
-                        font-size: 22px;
+                        font-size: 30px;
+                        font-weight: 400;
                         color: #fcea10;
-                        margin: 50px auto 0;
+                        margin-top: 40px;
+                        float: right;
                     }
 
                     & > img{
                         display: block;
-                        margin: 0 auto;
-                        width: 35%;
-                        border-bottom: solid 2px #fff;
+                        // margin: 0 auto;
+                        width: 100%;
+                        // border-bottom: solid 2px #fff;
                         padding-bottom: 15px;
+                    }
+                }
+
+                .procesador-text-left{
+                    display: block;
+                    padding-top: 60px;
+                    font-family: $myriad;
+                    font-size: 20px;
+                    font-weight: 400;
+                    float: left;
+                    color: white;
+                    @media screen and (max-width: 768px){
+                        float: none;
+                        position: relative;
+                        top: 20px;
+                        font-size: 25px;
+                    }
+                    @media screen and (max-width: 600px){
+                        top: -15px;
+                    }
+                    @media screen and (max-width: 400px){
+                        top: -30px;
+                        font-size: 15px;
                     }
                 }
 
@@ -131,7 +174,7 @@ strong{
         }
 
         @media screen and (min-width: 1800px) {
-            background-image: url('https://jumbocolombiafood.vteximg.com.br/arquivos/bnr-asus-vivo-book2.jpg');
+            background-image: url('https://jumbocolombiafood.vteximg.com.br/arquivos/301019-banner-vivobook-01.jpg');
             background-size: 100% auto;
         }
     }
@@ -151,6 +194,15 @@ strong{
         .selfie-pro{
             .left{
                 padding: 65px 0;
+                @media (max-width: 500px){
+                    max-height: 750px;
+                }
+                @media (max-width: 400px){
+                    max-height: 612px;
+                }
+                @media (max-width: 375px){
+                    max-height: 550px;
+                }
                 .cont_title{
                     img{
                         display: block;
@@ -181,7 +233,7 @@ strong{
                         p{
                             font-family: $myriad;
                             font-size: 22px;
-                            padding-left: 15px;
+                            // padding-left: 15px;
                         }
 
                         .icons{
@@ -190,12 +242,32 @@ strong{
                                 display: block;
                                 margin: 0 auto;
                                 width: 85px;
+                                height: 85px;
+                                @media (max-width: 450px){
+                                    width: 60px !important;
+                                    height: 60px;
+                                }
                             }
                         }
 
                         .icons-m{
                             img{
                                 width: 85px;
+                                @media (max-width: 1200px) {
+                                    width: 50px;
+                                    height: 40px;
+                                }
+                                @media (max-width: 768px) {
+                                    width: 100px !important;
+                                    height: 65px;
+                                }
+                                @media (max-width: 768px) {
+                                    width: 80px !important;
+                                    height: 45px;
+                                }
+                            }
+                            p{
+                                color: white;
                             }
                         }
                     }
@@ -229,11 +301,18 @@ strong{
         }
 
         &.version2{
-            background-image: url('https://www.tiendasjumbo.co/arquivos/Banner-Desktop-Mini-Site-vivobook-ZFM2-JulZENFONE-MAX-M2.jpg');
+            background-image: url('https://www.tiendasjumbo.co/arquivos/301019-banner-vivobook-02.jpg');
             background-position: center;
             background-size: cover;
+            height: 700px;
             @media (max-width: 768px){
-                background-image: url('https://www.tiendasjumbo.co/arquivos/Mobile-Banner_ZENFONE-MAX-M2.jpg');
+                background-image: url('https://www.tiendasjumbo.co/arquivos/301019-banner-vivobook-Mobile-02.jpg');
+                height: 1050px;
+            }
+            @media (max-width: 500px){
+                height: auto;
+                background-size: contain;
+                background-position: initial;
             }
             .selfie-pro{
                 position: relative;
@@ -260,25 +339,56 @@ strong{
                             margin-top: 130%;
                         }
                         .icons-right{
-                            padding-left: 6rem;
-                            @media (max-width: 768px) and (min-width: 500px){
-                                padding-left: 0;
+                            // padding-left: 6rem;
+                            text-align: center;
+                            @media (max-width: 768px){
+                                margin-top: 100px;
+                                display: inline-flex;
                             }
-                            @media (max-width: 499px){
-                                padding-left: 15px;
+                            @media (max-width: 500px){
+                                margin-top: -60px;
+                            }
+                            @media (max-width: 450px){
+                                margin-top: -250px;
+                            }
+                            .left-inline{
+                                margin-left: auto;
+                                @media (max-width: 768px){
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                        .inline-box{
+                            display: inline-flex;
+                            @media (max-width: 768px){
+                                top: -490px;
+                                text-align: center;
+                            }
+                            @media (max-width: 500px){
+                                top: -395px;
+                            }
+                            @media (max-width: 450px){
+                                top: -450px;
+                            }
+                            @media (max-width: 400px){
+                                top: -415px;
+                            }
+                            @media (max-width: 375px){
+                                top: -390px;
                             }
                         }
                         .minicont_caract{
                             padding-left: 0; 
-                            display: inline-flex;
+                            color: #fff;
+                            display: block;
                             @media (max-width: 768px){
-                                padding: 0 15%;
+                                // padding: 0 15%;
                             }
                             @media (max-width: 400px){
                                 padding: 0%;
                             }
                             div{
-                                display: block;
+                                display: inline-flex;
                                 align-self: center;
                                 text-align: left;
                                 margin: 0;
@@ -286,13 +396,29 @@ strong{
 
                             .icons-m{
                                 img{
-                                    margin: 0 auto;
+                                    // margin: 0 auto;
                                 }
                             }
 
                             p{
-                                color: #000;
+                                color: #fff;
                                 margin-top: 10px;
+                                margin-right: 10px;
+                                align-self: center;
+                                @media (max-width: 1200px){
+                                    font-size: 15px;
+                                }
+                                @media (max-width: 768px){
+                                    font-size: 25px;
+                                    // margin-left: 25px;
+                                }
+                                @media (max-width: 500px){
+                                    font-size: 20px;
+                                    margin-top: 0;
+                                }
+                                @media (max-width: 400px){
+                                    font-size: 15px;
+                                }
                             }
                         }
                     }
@@ -306,12 +432,25 @@ strong{
                 }
 
                 a{
-                    color: #000;
-                    border: solid 3px #000;
-                    width: 90%;
+                    color: #fff;
+                    border: solid 2px #fff;
+                    width: 50%;
+                    font-size: 30px;
                     // margin-bottom: 20px;
                     @media (max-width: 768px){
-                        width: 50%;
+                        width: 70%;
+                        font-size: 30px;
+                        align-self: center;
+                        margin: 0 auto;
+                        margin-top: 11px;
+                    }
+                    @media (max-width: 500px){
+                        font-size: 20px;
+                    }
+                    @media (max-width: 400px){
+                        font-size: 15px;
+                        width: 100%;
+                        margin-left: 10px;
                     }
                 }
             }
@@ -383,11 +522,15 @@ strong{
 
                 .promo-right{
                     padding-left: 5px;
+                    @media (max-width: 768px){
+                        padding-left: 0px;
+                        padding-right: 5px
+                    }
                     @media (max-width: 450px) {
-                        padding-left: 0px;  
+                        padding-right: 0px;  
                     }
                     img{
-                        width: calc(100% + 5px); 
+                        width: calc(100% + 1px); 
                         height: auto; 
                         @media (max-width: 991px) {
                             width: 100%;  
@@ -1543,9 +1686,16 @@ strong{
 
     .supercont__asus {
         .cont__slide1 {
-            background-image: url(https://jumbocolombiafood.vteximg.com.br/arquivos/bnr-asus-vivo-book2.jpg);
+            background-image: url(https://jumbocolombiafood.vteximg.com.br/arquivos/301019-banner-vivobook-Mobile01.jpg);
             background-size: cover;
-            background-position: center;
+            background-position: initial;
+            height: 1000px;
+            @media (max-width: 500px){
+                height: 900px;
+            }
+            @media (max-width: 400px){
+                height: 850px;
+            }
             .vivoBook {
                 padding:  0;height: 550px;
                 .left {
@@ -1553,23 +1703,51 @@ strong{
                         img {
                             width:  120px;
                             height:  auto;
+                            float: right;
                         }
                     }
 
                     .label {
                         padding-top: 60px;
+                        margin-top: 65%;
+                        @media (max-width: 600px){
+                            margin-top: 90%;
+                        }
+                        @media (max-width: 490px){
+                            margin-top: 108%;
+                        }
+                        @media (max-width: 400px){
+                            margin-top: 115%;
+                        }
                         img {
-                            width: 70%;
+                            width: 60%;
+                            margin: 0 auto;
                         }
 
                         .procesadores {
-                            font-size:  15px;
+                            font-size: 30px;
+                            margin-top: 12px;
+                            @media screen and (max-width: 600px){
+                                font-size: 20px;
+                            }
+                            @media screen and (max-width: 400px){
+                                font-size: 15px;
+                            }
                         }
 
                         a{
                             width: 200px;
-                            font-size: 17px;
-                            padding: 7px 0;
+                            padding: 14px 0;
+                            float: none;
+                            font-size: 28px;
+                            margin: 0 auto;
+                            margin-top: 20px;
+                            @media screen and (max-width: 600px){
+                                font-size: 20px;
+                            }
+                            @media screen and (max-width: 600px){
+                                font-size: 15px;
+                            }
                         }
                     } 
 
@@ -1598,7 +1776,7 @@ strong{
             .selfie-pro {
                 position:  relative;
                 .left {
-                    padding: 45px 0 0;
+                    padding: 60px 0 0;
                     .cont_title {
                         // padding-left: 40px;
                         .selfie-pro-img {
